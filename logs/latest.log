@@ -1,208 +1,657 @@
-[15:09:34] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:09:37] [ServerMain/INFO]: Loaded 7 recipes
-[15:09:38] [Server thread/INFO]: Starting minecraft server version 1.20.2
-[15:09:38] [Server thread/INFO]: Loading properties
-[15:09:38] [Server thread/INFO]: This server is running CraftBukkit version 3919-Spigot-dba3cdc-e42510b (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT)
-[15:09:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:09:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:09:39] [Server thread/INFO]: Debug logging is disabled
-[15:09:39] [Server thread/INFO]: Default game type: SURVIVAL
-[15:09:39] [Server thread/INFO]: Generating keypair
-[15:09:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:09:39] [Server thread/INFO]: Using epoll channel type
-[15:09:40] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.8.1
-[15:09:40] [Server thread/INFO]: [ViaVersion] ViaVersion 4.8.1 is now loaded. Registering protocol transformers and injecting...
-[15:09:40] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[15:09:41] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[15:09:41] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[15:09:41] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[15:09:41] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.8.1
-[15:09:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:09:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:09:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:09:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:09:41] [Server thread/INFO]: Preparing level "world"
-[15:09:41] [Server thread/INFO]: -------- World Settings For [world] --------
-[15:09:41] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:09:41] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:09:41] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:09:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:09:41] [Server thread/INFO]: View Distance: 10
-[15:09:41] [Server thread/INFO]: Simulation Distance: 10
-[15:09:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:09:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:09:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[15:09:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[15:09:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[15:09:41] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:09:41] [Server thread/INFO]: Mob Spawn Range: 6
-[15:09:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[15:09:41] [Server thread/INFO]: Max TNT Explosions: 100
-[15:09:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:09:42] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[15:09:42] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:09:42] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:09:42] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:09:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:09:42] [Server thread/INFO]: View Distance: 10
-[15:09:42] [Server thread/INFO]: Simulation Distance: 10
-[15:09:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:09:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:09:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[15:09:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[15:09:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[15:09:42] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:09:42] [Server thread/INFO]: Mob Spawn Range: 6
-[15:09:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[15:09:42] [Server thread/INFO]: Max TNT Explosions: 100
-[15:09:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:09:47] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[15:09:47] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:09:47] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:09:47] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:09:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:09:47] [Server thread/INFO]: View Distance: 10
-[15:09:47] [Server thread/INFO]: Simulation Distance: 10
-[15:09:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:09:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:09:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[15:09:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[15:09:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[15:09:47] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:09:47] [Server thread/INFO]: Mob Spawn Range: 6
-[15:09:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[15:09:47] [Server thread/INFO]: Max TNT Explosions: 100
-[15:09:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:09:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:57] [Server thread/INFO]: Time elapsed: 9539 ms
-[15:09:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:01] [Server thread/INFO]: Time elapsed: 4302 ms
-[15:10:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:05] [Worker-Main-1/INFO]: Preparing spawn area: 39%
-[15:10:05] [Server thread/INFO]: Time elapsed: 4088 ms
-[15:10:05] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.8.1
-[15:10:05] [Server thread/WARN]: [ViaVersion] Couldn't find reflection methods/fields to access Channel from player.
-Login race condition fixer will be disabled.
- Some plugins that use ViaAPI on join event may work incorrectly.
-java.lang.NoSuchFieldException: NetworkManager
-	at com.viaversion.viaversion.bukkit.listeners.JoinListener.findField(JoinListener.java:80) ~[?:?]
-	at com.viaversion.viaversion.bukkit.listeners.JoinListener.<clinit>(JoinListener.java:50) ~[?:?]
-	at com.viaversion.viaversion.ViaVersionPlugin.onEnable(ViaVersionPlugin.java:109) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.20.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.20.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.20.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugin(CraftServer.java:548) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugins(CraftServer.java:462) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:577) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:400) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:954) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:298) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[15:10:05] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.2 (764)
-[15:10:05] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.8.1
-[15:10:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:10:05] [Server thread/INFO]: Done (24.123s)! For help, type "help"
-[15:10:05] [Craft Scheduler Thread - 1/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[15:12:42] [User Authenticator #1/INFO]: UUID of player subhamoyGhosh is e08bc1be-f2c5-38bd-949f-fb8b9dd1263a
-[15:12:43] [Server thread/INFO]: subhamoyGhosh joined the game
-[15:12:43] [Server thread/INFO]: subhamoyGhosh[/[0:0:0:0:0:0:0:1%0]:51252] logged in with entity id 141 at ([world]17.5, 83.0, 18.5)
-[15:13:10] [Server thread/INFO]: Made subhamoyGhosh a server operator
-[15:13:20] [Server thread/INFO]: subhamoyGhosh issued server command: /gamemode creative
-[15:13:20] [Server thread/INFO]: [subhamoyGhosh: Set own game mode to Creative Mode]
-[15:14:12] [Server thread/WARN]: subhamoyGhosh moved too quickly! -12.018311805504027,-5.056851103310194,-6.257776375549014
-[15:14:58] [Server thread/INFO]: subhamoyGhosh lost connection: Disconnected
-[15:14:58] [Server thread/INFO]: subhamoyGhosh left the game
+[14:47:27] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.6
+[14:47:28] [ForkJoinPool-1-worker-1/WARN]: Mod explorify uses the version v1.3.0-mc1.20 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[14:47:28] [ForkJoinPool-1-worker-4/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+- Unsupported root entry "credits" at line 12 column 12
+[14:47:28] [ForkJoinPool-1-worker-1/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+- Unsupported root entry "credits" at line 12 column 12
+[14:47:28] [main/WARN]: Warnings were found!
+ - Mod 'Things' (things) 0.3.3+1.20 recommends any version of patchouli, which is missing!
+	 - You should install any version of patchouli for the optimal experience.
+[14:47:28] [main/INFO]: Loading 256 mods:
+	- additionalstructures 4.2.1
+	- adventurez 1.4.20
+	- aquamirae 6
+	- architectury 9.1.13
+	- artifacts 9.2.2
+	   |-- cardinal-components-base 5.2.2
+	   |-- cardinal-components-entity 5.2.2
+	   |-- expandability 9.0.0
+	   |-- porting_lib_attributes 2.1.1093+1.20
+	   |    |-- porting_lib_core 2.1.1093+1.20
+	   |    \-- porting_lib_gametest 2.1.1093+1.20
+	   \-- step-height-entity-attribute 1.2.0
+	- autotag-convention 2.0.2+1.20
+	   \-- autotag 2.0.2+1.20
+	- balm-fabric 7.2.1
+	- bettercombat 1.8.4+1.20.1
+	- betterdeserttemples 1.20-Fabric-3.0.3
+	   \-- org_reflections_reflections 0.10.2
+	- betterdungeons 1.20-Fabric-4.0.3
+	- betterendisland 1.20-Fabric-2.0.5
+	- betterfortresses 1.20-Fabric-2.0.5
+	- betterjungletemples 1.20-Fabric-2.0.4
+	- bettermineshafts 1.20-Fabric-4.0.4
+	- betteroceanmonuments 1.20-Fabric-3.0.4
+	- betterstrongholds 1.20-Fabric-4.0.3
+	- betterwitchhuts 1.20-Fabric-3.0.3
+	- bookshelf 20.1.9
+	- bosses_of_mass_destruction 1.7.5-1.20.1
+	   |-- maelstrom_library 1.6.1-1.20
+	   \-- multipart_entities 1.5-1.20
+	- c2me 0.2.0+alpha.11.0
+	   |-- c2me-base 0.2.0+alpha.11.0
+	   |-- c2me-client-uncapvd 0.2.0+alpha.11.0
+	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.11.0
+	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.11.0
+	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.11.0
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.11.0
+	   |-- c2me-notickvd 0.2.0+alpha.11.0
+	   |-- c2me-opts-allocs 0.2.0+alpha.11.0
+	   |-- c2me-opts-chunk-access 0.2.0+alpha.11.0
+	   |-- c2me-opts-chunkio 0.2.0+alpha.11.0
+	   |-- c2me-opts-math 0.2.0+alpha.11.0
+	   |-- c2me-opts-scheduling 0.2.0+alpha.11.0
+	   |-- c2me-opts-worldgen-general 0.2.0+alpha.11.0
+	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.11.0
+	   |-- c2me-rewrites-chunk-serializer 0.2.0+alpha.11.0
+	   |-- c2me-rewrites-chunkio 0.2.0+alpha.11.0
+	   |-- c2me-server-utils 0.2.0+alpha.11.0
+	   |-- c2me-threading-chunkio 0.2.0+alpha.11.0
+	   |-- c2me-threading-lighting 0.2.0+alpha.11.0
+	   |-- c2me-threading-worldgen 0.2.0+alpha.11.0
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- net_objecthunter_exp4j 0.4.8
+	   \-- org_threadly_threadly 7.0
+	- cardinal-components 5.2.2
+	   |-- cardinal-components-block 5.2.2
+	   |-- cardinal-components-chunk 5.2.2
+	   |-- cardinal-components-item 5.2.2
+	   |-- cardinal-components-level 5.2.2
+	   |-- cardinal-components-scoreboard 5.2.2
+	   \-- cardinal-components-world 5.2.2
+	- carryon 2.1.2.7
+	- charmofundying 6.4.5+1.20.1
+	- chefsdelight 1.0.3-fabric-1.20.1
+	- chunky 1.3.92
+	- cinderscapes 4.0.10
+	   |-- biolith 1.0.0-beta.1
+	   |    \-- mixinextras 0.3.2
+	   |-- cinderscapes-client 4.0.10
+	   |-- cinderscapes-common 4.0.10
+	   |-- cinderscapes-worldgen 4.0.10
+	   |-- terraform-biome-remapper-api-v1 7.0.3
+	   |-- terraform-shapes-api-v1 7.0.3
+	   |-- terraform-surfaces-api-v1 7.0.3
+	   \-- terraform-wood-api-v1 7.0.3
+	        \-- mixinextras 0.3.2
+	- cloth-config 11.1.118
+	   \-- cloth-basic-math 0.6.1
+	- collective 7.30
+	- combatroll 1.3.1+1.20.1
+	- comforts 6.3.5+1.20.1
+	   \-- spectrelib 0.13.15+1.20.1
+	- coroutil 1.20.1-1.3.5
+	- cosmetic-armor 1.6.0
+	- creativecore 2.11.15
+	   \-- net_minecraftforge_eventbus 6.0.3
+	- creeperoverhaul 3.0.1
+	- cristellib 1.1.5
+	   \-- blue_endless_jankson 1.2.3
+	- cupboard 1.20.1-2.3
+	- deeperdarker 1.2.6
+	   \-- customportalapi 0.0.1-beta64-1.20
+	- dragonloot 1.1.4
+	- dungeons_arise 2.1.57
+	- echochest 8.0.0
+	- emojiful 4.2.0
+	   |-- com_esotericsoftware_yamlbeans_yamlbeans 1.15
+	   \-- midnightlib 1.1.0
+	- endermanoverhaul 1.0.4
+	- endrem 5.2.4
+	- explorerscompass 1.20.1-2.2.3-fabric
+	- explorify v1.3.0-mc1.20
+	- fabric-api 0.92.0+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.64+df3654b377
+	   |-- fabric-content-registries-v0 4.0.11+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.4+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.2+1802ada577
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.12+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.1+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.45+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.50+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.11+1802ada577
+	   |-- fabric-networking-v0 0.3.51+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.3+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.21+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.3+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.1+1802ada577
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.10+1802ada577
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.4+1802ada577
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabric-language-kotlin 1.10.17+kotlin.1.9.22
+	   |-- org_jetbrains_kotlin_kotlin-reflect 1.9.22
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 1.9.22
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 1.9.22
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 1.9.22
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.23.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.7.3
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.7.3
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.5.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.6.2
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.6.2
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.6.2
+	- fabricloader 0.15.6
+	   \-- mixinextras 0.3.2
+	- farmersdelight 1.20.1-1.4.3
+	- ferritecore 6.0.1
+	- forgeconfigapiport 8.0.0
+	- friendsandfoes 2.0.9
+	- geckolib 4.4.2
+	   \-- com_eliotlash_mclib_mclib 20
+	- graveyard 2.9.1
+	   \-- omega-config 1.2.2-1.18.1
+	- hybrid-aquatic 1.2.2
+	   \-- reach-entity-attributes 2.4.0
+	- iceberg 1.1.18
+	- immersive_aircraft 0.7.1+1.20.1
+	- immersive_armors 1.6.1+1.20.1
+	- immersive_melodies 0.1.0+1.20.1
+	- immersive_paintings 0.6.7+1.20.1
+	- infinitetrading 4.3
+	- ironchests 5.0.2
+	- java 21
+	- jobsaddon 1.1.6
+	- levelz 1.4.13
+	- libz 1.0.3
+	   |-- com_fasterxml_jackson_core_jackson-annotations 2.15.2
+	   |-- com_fasterxml_jackson_core_jackson-core 2.15.2
+	   \-- com_fasterxml_jackson_core_jackson-databind 2.15.2
+	- lithium 0.11.2
+	- mca 7.5.14+1.20.1
+	- mcda 5.0.1
+	- mcdar 4.0.1
+	- mcdw 9.0.1
+	- minecraft 1.20.1
+	- modernfix 5.11.1+mc1.20.1
+	- mr_dungeons_andtaverns 3.0.3
+	- mr_edf_remastered 4.3
+	- mr_veinminer 1.1.0
+	- mutantmonsters 8.0.6
+	   |-- cardinal-components-base 5.2.2
+	   |-- cardinal-components-entity 5.2.2
+	   \-- extensibleenums 7.0.1
+	- naturalist 4.0.3
+	- naturescompass 1.20.1-2.2.3-fabric
+	- nohostilesaroundcampfire 5.9
+	- obscure_api 16
+	- onlyhammersandexcavators 1.20.1-0.2
+	- owo 0.11.2+1.20
+	- partyaddon 1.0.4
+	- player-animator 1.0.2-rc1+1.20
+	- playit_fabric 1.3.1
+	- puzzleslib 8.1.16
+	   \-- puzzlesaccessapi 8.0.7
+	- resourcefulconfig 2.1.2
+	- resourcefullib 2.1.23
+	   |-- com_teamresourceful_bytecodecs 1.0.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- seasons 2.3+1.20
+	- servercore 1.3.9+1.20.1
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   \-- placeholder-api 2.1.2+1.20.1
+	- simplyswords 1.53.0-1.20.1
+	   \-- spruceui 5.0.0+1.20
+	- soulsweapons 1.0.2-1.20-fabric
+	- starlight 1.1.2+fabric.dbc156f
+	- t_and_t 1.12
+	- terrablender 3.0.1.4
+	   |-- com_electronwill_night-config_core 3.6.7
+	   \-- com_electronwill_night-config_toml 3.6.7
+	- terrestria 6.0.13
+	   |-- biolith 1.0.0-beta.1
+	   |    \-- mixinextras 0.3.2
+	   |-- terraform-biome-remapper-api-v1 7.0.3
+	   |-- terraform-config-api-v1 7.0.3
+	   |-- terraform-dirt-api-v1 7.0.3
+	   |    \-- mixinextras 0.3.2
+	   |-- terraform-shapes-api-v1 7.0.3
+	   |-- terraform-surfaces-api-v1 7.0.3
+	   |-- terraform-tree-api-v1 7.0.3
+	   |-- terraform-wood-api-v1 7.0.3
+	   |    \-- mixinextras 0.3.2
+	   |-- terrestria-client 6.0.13
+	   |-- terrestria-common 6.0.13
+	   \-- terrestria-worldgen 6.0.13
+	- things 0.3.3+1.20
+	   \-- lavender 0.1.0-pre.18+1.20
+	        |-- lavender-md 0.1.0-pre.3+1.20
+	        \-- lavender-md-owo-ui 0.1.0-pre.3+1.20
+	- threadtweak 1.20.2-0.1.1
+	- tiered 1.3.1
+	   \-- reach-entity-attributes 2.4.0
+	- tlc 1.0.1
+	- trade_cycling 1.20.1-1.0.10
+	   |-- fabric-key-binding-api-v1 1.0.36+fb8d95da82
+	   \-- fabric-screen-api-v1 2.0.6+b3afc78b82
+	- travelersbackpack 1.20.1-9.1.9
+	- traverse 7.0.11
+	   |-- biolith 1.0.0-beta.1
+	   |    \-- mixinextras 0.3.2
+	   |-- terraform-biome-remapper-api-v1 7.0.3
+	   |-- terraform-config-api-v1 7.0.3
+	   |-- terraform-surfaces-api-v1 7.0.3
+	   |-- terraform-tree-api-v1 7.0.3
+	   |-- terraform-wood-api-v1 7.0.3
+	   |    \-- mixinextras 0.3.2
+	   |-- traverse-client 7.0.11
+	   |-- traverse-common 7.0.11
+	   \-- traverse-worldgen 7.0.11
+	- trinkets 3.7.1
+	- twigs 3.1.0
+	- vmp 0.2.0+beta.7.102
+	- waystones 14.1.3
+	- wilderwild 2.3-Fabric+1.20.1
+	   |-- frozenlib 1.6-Fabric+1.20.1
+	   \-- reach-entity-attributes 2.4.0
+	- yet_another_config_lib_v3 3.2.2+1.20
+	   |-- com_twelvemonkeys_common_common-image 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_common_common-io 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_common_common-lang 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0-SNAPSHOT
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- yigd 2.0.0-beta.8
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   \-- libgui 8.1.1+1.20.1
+	        |-- jankson 6.0.0+j1.2.3
+	        \-- libninepatch 1.2.0
+	- yosbr 0.1.2
+	- yungsapi 1.20-Fabric-4.0.3
+	   \-- org_javassist_javassist 3.29.2-GA
+	- yungsbridges 1.20-Fabric-4.0.3
+	- yungsextras 1.20-Fabric-4.0.3
+[14:47:28] [main/INFO]: Applying default options... (YOSBR)
+[14:47:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/minecraft-own-cloud-host-github/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[14:47:28] [main/INFO]: Compatibility level set to JAVA_17
+[14:47:29] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[14:47:29] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[14:47:29] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[14:47:29] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[14:47:29] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[14:47:29] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[14:47:29] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[14:47:29] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[14:47:29] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[14:47:29] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[14:47:29] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[14:47:29] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[14:47:29] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[14:47:29] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[14:47:29] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@9.1.13 (*) (defined in c2me)
+[14:47:29] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[14:47:29] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[14:47:29] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[14:47:29] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[14:47:29] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[14:47:29] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[14:47:29] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[14:47:29] [main/WARN]: Reference map 'cinderscapes-worldgen-refmap.json' for mixins.cinderscapes-worldgen.json could not be read. If this is a development environment you can ignore this message
+[14:47:29] [main/WARN]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
+[14:47:29] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 4 override(s) found
+[14:47:29] [main/INFO]: Loaded configuration file for ModernFix 5.11.1+mc1.20.1: 52 options available, 5 override(s) found
+[14:47:29] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[14:47:29] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[14:47:29] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[14:47:29] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[14:47:29] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
+[14:47:29] [main/INFO]: Applying Nashorn fix
+[14:47:29] [main/WARN]: Reference map 'simplyswords-fabric-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:47:29] [main/WARN]: Reference map 'terrestria-worldgen-refmap.json' for mixins.terrestria-worldgen.json could not be read. If this is a development environment you can ignore this message
+[14:47:29] [main/WARN]: Reference map 'traverse-common-refmap.json' for mixins.traverse-common.json could not be read. If this is a development environment you can ignore this message
+[14:47:29] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[14:47:29] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:47:29] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:47:29] [main/WARN]: Error loading class: net/minecraft/class_1007 (java.lang.ClassNotFoundException: net/minecraft/class_1007)
+[14:47:29] [main/WARN]: @Mixin target net.minecraft.class_1007 was not found mixins.artifacts.fabric.json:client.PlayerRendererMixin from mod artifacts
+[14:47:30] [main/WARN]: Error loading class: net/minecraft/class_293 (java.lang.ClassNotFoundException: net/minecraft/class_293)
+[14:47:30] [main/WARN]: @Mixin target net.minecraft.class_293 was not found creativecore.fabric.mixins.json:VertexFormatMixin from mod creativecore
+[14:47:30] [main/WARN]: Mixin malte0811.ferritecore.mixin.threaddetec.PalettedContainerMixin is disabled automatically as lithium is installed
+[14:47:30] [main/WARN]: Error loading class: net/minecraft/class_632 (java.lang.ClassNotFoundException: net/minecraft/class_632)
+[14:47:30] [main/WARN]: @Mixin target net.minecraft.class_632 was not found lavender.mixins.json:ClientAdvancementManagerAccessor from mod lavender
+[14:47:30] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[14:47:30] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[14:47:30] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me, vmp]) disables it and children
+[14:47:30] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[14:47:30] [main/INFO]: Loading config MixinsConfig from wilderwild
+[14:47:30] [main/INFO]: Saving config MixinsConfig from wilderwild
+[14:47:30] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[14:47:31] [main/INFO]: ThreadTweak config initialized
+[14:47:34] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[14:47:34] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[14:47:34] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[14:47:34] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[14:47:34] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[14:47:36] [main/INFO]: Loading config BlockConfig from wilderwild
+[14:47:36] [main/INFO]: Saving config BlockConfig from wilderwild
+[14:47:36] [main/INFO]: Loading config EntityConfig from wilderwild
+[14:47:36] [main/INFO]: Saving config EntityConfig from wilderwild
+[14:47:38] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[14:47:38] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[14:47:39] [main/INFO]: Vanilla bootstrap took 7208 milliseconds
+[14:47:39] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[14:47:39] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[14:47:39] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[14:47:39] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[14:47:39] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[14:47:39] [main/INFO]: Reflections took 131 ms to scan 1 urls, producing 1 keys and 2 values
+[14:47:39] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[14:47:39] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[14:47:39] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values
+[14:47:39] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[14:47:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:47:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[14:47:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[14:47:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[14:47:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[14:47:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:47:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:47:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[14:47:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[14:47:39] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[14:47:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:47:40] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[14:47:40] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[14:47:40] [main/INFO]: Biolith is initializing...
+[14:47:40] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
+[14:47:40] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[14:47:40] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[14:47:40] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[14:47:40] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[14:47:40] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[14:47:40] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[14:47:40] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[14:47:40] [main/INFO]: Hello Fabric world!
+[14:47:40] [main/INFO]: [STDOUT]: All 6 have been set properly
+[14:47:40] [main/INFO]: Enabling Cinderscapes' Biolith worldgen module.
+[14:47:40] [main/INFO]: Loading Collective version 7.30.
+[14:47:40] [main/INFO]: Loaded config for: cupboard.json
+[14:47:40] [main/INFO]: Deserializing DDConfig from './config/deeperdarker.json5'
+[14:47:40] [main/INFO]: Bypassed Mojang DFU
+[14:47:40] [main/INFO]: Instantiating Mojang DFU
+[14:47:41] [main/INFO]: Constructing common components for echochest:main
+[14:47:41] [main/INFO]: ExpandAbility here, who dis?
+[14:47:41] [main/INFO]: Registering Particles for frozenlib
+[14:47:41] [main/INFO]: Loading config FrozenLibConfig from frozenlib
+[14:47:42] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[14:47:42] [main/INFO]: Initializing hybrid-aquatic
+[14:47:42] [main/ERROR]: No data fixer registered for hybrid-aquatic:anemone
+[14:47:42] [main/ERROR]: No data fixer registered for hybrid-aquatic:giant_clam
+[14:47:42] [main/ERROR]: No data fixer registered for hybrid-aquatic:message_in_a_bottle
+[14:47:42] [main/ERROR]: No data fixer registered for hybrid-aquatic:buoy
+[14:47:42] [main/ERROR]: No data fixer registered for hybrid-aquatic:hydrothermal_vent
+[14:47:42] [main/ERROR]: No data fixer registered for hybrid-aquatic:tube_sponge
+[14:47:43] [main/ERROR]: No data fixer registered for mca:tombstone
+[14:47:43] [main/INFO]: Registering Blocks for mcda
+[14:47:43] [main/INFO]: Constructing common components for mutantmonsters:main
+[14:47:43] [main/INFO]: Loading common config for mutantmonsters
+[14:47:43] [Thread-3/INFO]: Reloading common config for mutantmonsters
+[14:47:43] [Thread-3/INFO]: Reloading common config for mutantmonsters
+[14:47:43] [main/INFO]: DerGeistdesMatze - i will take the l
+[14:47:43] [main/INFO]: Constructing common components for puzzleslib:main
+[14:47:43] [main/INFO]: [Fabric Seasons] Trying to read config file...
+[14:47:43] [main/INFO]: [Fabric Seasons] A config file was found, loading it..
+[14:47:43] [main/INFO]: [Fabric Seasons] Successfully loaded config file.
+[14:47:43] [main/INFO]: [ServerCore] Loaded V1.3.9+1.20.1!
+[14:47:44] [main/INFO]: [STDOUT]: /workspaces/minecraft-own-cloud-host-github/config
+[14:47:44] [main/INFO]: Config initialized!
+[14:47:44] [main/INFO]: Successfully initialized Geckolib!
+[14:47:44] [main/INFO]: Successfully registered SoulsWeapons content!
+[14:47:44] [main/INFO]: Successfully registered recipes!
+[14:47:44] [main/INFO]: Successfully registered built-in 2D model resourcepack!
+[14:47:44] [main/INFO]: Initializing done, time taken: 164ms
+[14:47:44] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[14:47:44] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[14:47:44] [main/INFO]: Registered region wilderwild:overworld to index 1 for type OVERWORLD
+[14:47:44] [main/INFO]: Enabling Terrestria's Biolith worldgen module.
+[14:47:44] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[14:47:44] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[14:47:44] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[14:47:44] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[14:47:44] [main/INFO]: Enabling Traverse's Biolith worldgen module.
+[14:47:45] [main/INFO]: Started measuring WilderWild
+[14:47:45] [main/INFO]: Applying DataFixes for Wilder Wild with Data Version 16
+[14:47:45] [main/INFO]: DataFixes for Wilder Wild have been applied
+[14:47:45] [main/INFO]: Loading config WorldgenConfig from wilderwild
+[14:47:45] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[14:47:45] [main/INFO]: Adding Music And Ambience To Biomes for wilderwild
+[14:47:45] [main/INFO]: Overriding Water Colors for Wilder Wild wilderwild
+[14:47:45] [main/WARN]: Encountered duplicate API provider registration for block: wilderwild:stone_chest
+[14:47:45] [main/INFO]: WilderWild took 142487091 nanoseconds
+[14:47:45] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[14:47:45] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[14:47:45] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:47:45] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[14:47:45] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:47:45] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:47:45] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:47:47] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[14:47:47] [main/INFO]: registered playit command
+[14:47:47] [Worker-Main-3/ERROR]: Couldn't load tag frozenlib:dont_emit_use_game_events as it is missing following references: deeperdarker:transmitter (from fabric)
+[14:47:51] [main/INFO]: Loaded 12 recipes
+[14:47:51] [main/ERROR]: Parsing error loading custom advancement naturescompass:natures_compass: Expected items to be a JsonArray, was "min...ss"
+[14:47:51] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass: Expected items to be a JsonArray, was "min...ss"
+[14:47:51] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass_cobweb: Expected items to be a JsonArray, was "min...eb"
+[14:47:51] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass_cracked_stone_bricks: Expected items to be a JsonArray, was "min...ks"
+[14:47:51] [main/INFO]: Loaded 3843 advancements
+[14:47:51] [main/INFO]: [Fabric Seasons] Successfully loaded 15 custom crop configs.
+[14:47:51] [main/INFO]: Loaded 144 recipes
+[14:47:51] [main/INFO]: Reloading grave shape (server)
+[14:47:51] [main/INFO]: Grave model and shape reload successful (server)
+[14:47:51] [main/INFO]: Reloading YIGD graveyard data (server)
+[14:47:51] [main/INFO]: Graveyard data successfully reloaded (server)
+[14:47:51] [main/INFO]: Reloading YIGD grave area overrides (server)
+[14:47:51] [main/INFO]: Grave area overrides successfully reloaded (server)
+[14:47:52] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[14:47:52] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[14:47:52] [main/INFO]: Loading config MiscConfig from wilderwild
+[14:47:52] [main/INFO]: Saving config MiscConfig from wilderwild
+[14:47:52] [main/INFO]: Applied 4730 biome modifications to 124 of 124 new biomes in 119.6 ms
+[14:47:52] [Server thread/INFO]: Registering compost heaps in village type of plains
+[14:47:52] [Server thread/INFO]: Registering compost heaps in village type of savanna
+[14:47:52] [Server thread/INFO]: Registering compost heaps in village type of snowy
+[14:47:52] [Server thread/INFO]: Registering compost heaps in village type of taiga
+[14:47:52] [Server thread/INFO]: Registering compost heaps in village type of desert
+[14:47:52] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry is about to freeze
+[14:47:52] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry was frozen
+[14:47:53] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[14:47:53] [Server thread/INFO]: Loading properties
+[14:47:53] [Server thread/INFO]: Default game type: SURVIVAL
+[14:47:53] [Server thread/INFO]: Generating keypair
+[14:47:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:47:53] [Server thread/INFO]: Using epoll channel type
+[14:47:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:47:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:47:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:47:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:47:53] [Server thread/INFO]: Preparing level "world"
+[14:47:53] [Server thread/INFO]: Wilder Wild's Overworld Surface Rules have been added!
+[14:47:53] [Server thread/INFO]: Enforcing safe world random access
+[14:47:53] [Server thread/INFO]: Changing watch distance to 20
+[14:48:03] [Server thread/INFO]: Changing watch distance to 20
+[14:48:03] [Server thread/INFO]: Changing watch distance to 20
+[14:48:03] [Server thread/INFO]: Ignoring world 'deeperdarker:otherside'; unknown dimension type: deeperdarker:otherside
+[14:48:03] [Server thread/INFO]: Changing watch distance to 20
+[14:48:03] [Server thread/INFO]: Wilder Wild's Overworld Surface Rules have been added!
+[14:48:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:48:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:48:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:48:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:48:04] [Worker-Main-3/INFO]: Preparing spawn area: 1%
+[14:48:05] [Worker-Main-1/INFO]: Preparing spawn area: 6%
+[14:48:05] [Worker-Main-3/INFO]: Preparing spawn area: 36%
+[14:48:06] [Worker-Main-3/INFO]: Preparing spawn area: 53%
+[14:48:06] [Worker-Main-2/INFO]: Preparing spawn area: 79%
+[14:48:06] [Server thread/INFO]: Time elapsed: 3839 ms
+[14:48:06] [Server thread/INFO]: Done (13.613s)! For help, type "help"
+[14:48:06] [Server thread/WARN]: Dedicated server took 40.077 seconds to load
+[14:48:07] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 222478 bytes (in 23 string chunks with the size of 10000)
+[14:48:07] [Server thread/INFO]: [STDOUT]: PREPARING FOR RELOAD
+[14:48:09] [Thread-21/INFO]: secret key found, checking
+[14:48:09] [Thread-21/INFO]: check secret
+[14:48:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2159ms or 43 ticks behind
+[14:48:10] [Thread-21/INFO]: found minecraft java tunnel: into-bears.joinmc.link
+[14:48:10] [Thread-21/INFO]: keys and tunnel setup
+[14:48:53] [Thread-21/INFO]: got new client: NewClient{connectAddr=209.25.140.181:59270, peerAddr=196.210.63.25:53299, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -116, -75, -25, -122, -60, -46, 63, 25, -48, 51, -55, 80, 117, -50, -85, 8, 101, -48, -57, 85, 0, 0, 0, 0, 0, 6, 15, 80, 0, 0, 0, 0, 0, 46, 76, 29, -121, -50, -85, 8, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, -44, 103, 0, 1, 126, -33, -119, -43, -45, 12, -90, -13, -9, -26, 103, 95, -125, -19, -10, 31], tunnelServerId=54375, dataCenterId=3}
+[14:48:53] [Thread-21/INFO]: starting tcp tunnel for client
+[14:48:53] [Thread-21/INFO]: start connection to /209.25.143.2:43784 to claim client
+[14:48:53] [nioEventLoopGroup-2-1/INFO]: connected to tunnel server, sending claim token
+[14:48:53] [nioEventLoopGroup-2-1/INFO]: claim token sent
+[14:48:53] [nioEventLoopGroup-2-1/INFO]: connection to tunnel server has been established
+[14:48:53] [nioEventLoopGroup-2-1/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:48:53] [nioEventLoopGroup-2-1/INFO]: failed to get ServerConnection from Minecraft Server
+[14:48:53] [nioEventLoopGroup-2-1/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:48:53] [nioEventLoopGroup-2-2/INFO]: connected to local minecraft server
+[14:49:02] [Thread-21/INFO]: got new client: NewClient{connectAddr=209.25.140.181:59270, peerAddr=196.210.63.25:53302, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -116, -75, -25, -122, -60, -46, 63, 25, -48, 54, 24, -52, 67, -128, -85, 8, 101, -48, -57, 94, 0, 0, 0, 0, 0, 6, 15, 80, 0, 0, 0, 0, 0, 46, 76, 29, 56, -128, -85, 8, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, -44, 103, 0, 1, 11, -35, -39, 119, 21, 104, 82, -76, -35, -60, -101, 71, -55, -2, -39, 60], tunnelServerId=54375, dataCenterId=3}
+[14:49:02] [Thread-21/INFO]: starting tcp tunnel for client
+[14:49:02] [Thread-21/INFO]: start connection to /209.25.143.2:43784 to claim client
+[14:49:02] [nioEventLoopGroup-2-3/INFO]: connected to tunnel server, sending claim token
+[14:49:02] [nioEventLoopGroup-2-3/INFO]: claim token sent
+[14:49:02] [nioEventLoopGroup-2-3/INFO]: connection to tunnel server has been established
+[14:49:02] [nioEventLoopGroup-2-3/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:49:02] [nioEventLoopGroup-2-3/INFO]: failed to get ServerConnection from Minecraft Server
+[14:49:02] [nioEventLoopGroup-2-3/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:49:02] [nioEventLoopGroup-2-4/INFO]: connected to local minecraft server
+[14:49:04] [Thread-21/INFO]: got new client: NewClient{connectAddr=209.25.140.181:59270, peerAddr=196.210.63.25:53303, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -116, -75, -25, -122, -60, -46, 63, 25, -48, 55, 8, -16, 8, -31, -85, 8, 101, -48, -57, 96, 0, 0, 0, 0, 0, 6, 15, 80, 0, 0, 0, 0, 0, 46, 76, 29, -77, -31, -85, 8, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, -98, -12, 0, 1, 67, 114, 8, -127, -84, 63, -113, 112, 67, 81, -41, 34, 32, 92, -32, -79], tunnelServerId=40692, dataCenterId=3}
+[14:49:04] [Thread-21/INFO]: starting tcp tunnel for client
+[14:49:04] [Thread-21/INFO]: start connection to /209.25.143.2:43784 to claim client
+[14:49:04] [nioEventLoopGroup-2-5/INFO]: connected to tunnel server, sending claim token
+[14:49:04] [nioEventLoopGroup-2-5/INFO]: claim token sent
+[14:49:04] [nioEventLoopGroup-2-5/INFO]: connection to tunnel server has been established
+[14:49:04] [nioEventLoopGroup-2-5/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[14:49:04] [nioEventLoopGroup-2-5/INFO]: failed to get ServerConnection from Minecraft Server
+[14:49:04] [nioEventLoopGroup-2-5/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[14:49:04] [nioEventLoopGroup-2-6/INFO]: connected to local minecraft server
+[14:49:05] [Server thread/INFO]: [Handshake] Sending channel query
+[14:49:05] [Netty Epoll Login IO Thread #0/INFO]: [Handshake] Receiving client channels
+[14:49:05] [Netty Epoll Login IO Thread #0/INFO]: [Handshake] Handshake completed successfully
+[14:49:06] [Server thread/INFO]: __CXC___[/127.0.0.1:32776] logged in with entity id 110 at (-181.41075833015142, 87.54739551639582, -221.69999998807907)
+[14:49:07] [Server thread/INFO]: __CXC___ joined the game
+[14:49:07] [Server thread/INFO]: Async chunk loading for player __CXC___ completed
+[14:49:07] [Server thread/INFO]: [Handshake] Sending channel query
+[14:49:07] [nioEventLoopGroup-2-1/WARN]: failed to send data to tunnel
+[14:49:07] [nioEventLoopGroup-2-1/WARN]: failed to send data to tunnel
+[14:49:07] [Netty Epoll Play IO Thread #1/INFO]: Priority overwritten for player __CXC___. Claiming: GRAVE / Robbing: INVENTORY
+[14:49:07] [Server thread/INFO]: com.mojang.authlib.GameProfile@690ecaa6[id=<null>,name=__CXC___,properties={},legacy=false] (/127.0.0.1:53460) lost connection: Disconnected
+[14:49:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[14:50:55] [Server thread/INFO]: [__CXC___: The difficulty has been set to Hard]
+[14:56:11] [Server thread/INFO]: [__CXC___: Summoned new Mutant Skeleton]
+[14:56:21] [Server thread/INFO]: Loading config ItemConfig from wilderwild
+[14:56:21] [Server thread/INFO]: Saving config ItemConfig from wilderwild
+[15:03:45] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=202, y=47, z=211}
+[15:03:48] [Server thread/INFO]: __CXC___ has made the advancement [Gravedigger]
+[15:07:15] [Worker-Main-4/WARN]: Tried to access a block entity before it was created. class_2338{x=1146, y=-10, z=-763}
+[15:07:15] [Worker-Main-4/WARN]: Tried to access a block entity before it was created. class_2338{x=1146, y=-10, z=-761}
+[15:07:18] [Worker-Main-3/WARN]: Tried to access a block entity before it was created. class_2338{x=1164, y=-11, z=-755}
+[15:07:18] [Worker-Main-3/WARN]: Tried to access a block entity before it was created. class_2338{x=1165, y=-11, z=-755}
+[15:07:18] [Worker-Main-3/WARN]: Tried to access a block entity before it was created. class_2338{x=1161, y=-8, z=-755}
+[15:07:18] [Worker-Main-3/WARN]: Tried to access a block entity before it was created. class_2338{x=1162, y=-8, z=-755}
+[15:07:22] [Worker-Main-4/WARN]: Tried to access a block entity before it was created. class_2338{x=1176, y=-9, z=-753}
+[15:07:22] [Worker-Main-5/WARN]: Tried to access a block entity before it was created. class_2338{x=1181, y=-4, z=-748}
+[15:07:22] [Worker-Main-5/WARN]: Tried to access a block entity before it was created. class_2338{x=1180, y=-4, z=-749}
+[15:07:22] [Worker-Main-5/WARN]: Tried to access a block entity before it was created. class_2338{x=1179, y=-4, z=-749}
+[15:07:22] [Worker-Main-5/WARN]: Tried to access a block entity before it was created. class_2338{x=1180, y=0, z=-749}
+[15:07:22] [Worker-Main-5/WARN]: Tried to access a block entity before it was created. class_2338{x=1179, y=0, z=-749}
+[15:07:25] [Worker-Main-5/WARN]: Tried to access a block entity before it was created. class_2338{x=1190, y=-4, z=-753}
+[15:07:25] [Worker-Main-5/WARN]: Tried to access a block entity before it was created. class_2338{x=1191, y=-4, z=-753}
+[15:07:25] [Worker-Main-5/WARN]: Tried to access a block entity before it was created. class_2338{x=1190, y=-1, z=-753}
+[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-413, y=-49, z=-217}
+[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-178, y=-45, z=-85}
+[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-178, y=-41, z=-89}
+[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-172, y=-54, z=-92}
+[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-172, y=-54, z=-93}
+[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-175, y=-41, z=-90}
+[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-423, y=-50, z=-211}
+[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-420, y=-50, z=-211}
+[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-195, y=-54, z=-92}
+[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-192, y=-54, z=-88}
+[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-192, y=-50, z=-85}
+[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-183, y=-51, z=-89}
+[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-186, y=-50, z=-90}
+[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-186, y=-45, z=-87}
+[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-189, y=-45, z=-84}
+[15:07:30] [Worker-Main-4/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]
+[15:07:30] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-192, y=-54, z=-74}
+[15:07:30] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-192, y=-50, z=-77}
+[15:07:30] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-187, y=-50, z=-72}
+[15:07:30] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-184, y=-45, z=-75}
+[15:07:30] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-182, y=-45, z=-75}
+[15:07:30] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-418, y=-50, z=-208}
+[15:07:30] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-177, y=-55, z=-77}
+[15:07:30] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-181, y=-50, z=-73}
+[15:07:30] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-172, y=-54, z=-70}
+[15:07:40] [Worker-Main-4/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:07:40] [Worker-Main-4/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:07:40] [Worker-Main-4/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:07:40] [Worker-Main-4/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:07:40] [Worker-Main-4/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:07:40] [Worker-Main-4/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:07:40] [Worker-Main-4/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:07:40] [Worker-Main-4/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:08:38] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=203, y=48, z=159}
+[15:08:48] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:08:48] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:08:48] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:08:48] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:08:48] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:08:48] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:08:48] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:08:48] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:08:48] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:08:48] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:18:21] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=216, y=47, z=211}
+[15:18:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=216, y=47, z=211}
+[15:19:51] [Worker-Main-5/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:19:51] [Worker-Main-5/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:19:51] [Worker-Main-5/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:19:51] [Worker-Main-5/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:19:51] [Worker-Main-5/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:19:51] [Worker-Main-5/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:19:51] [Worker-Main-5/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[15:19:51] [Worker-Main-5/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation

@@ -1,5 +1,5 @@
 while true # start an infinite loop
 do
   echo "Hello" # print "Hello"
-  sleep 60 # wait for 1 second
+  sleep 45 # wait for 1 second
 done # end the loop

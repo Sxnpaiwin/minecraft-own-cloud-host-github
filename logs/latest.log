@@ -1,13 +1,11 @@
-[14:47:27] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.6
-[14:47:28] [ForkJoinPool-1-worker-1/WARN]: Mod explorify uses the version v1.3.0-mc1.20 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[14:47:28] [ForkJoinPool-1-worker-4/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+[20:05:03] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.6
+[20:05:03] [ForkJoinPool-1-worker-1/WARN]: Mod explorify uses the version v1.3.0-mc1.20 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[20:05:03] [ForkJoinPool-1-worker-4/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 12 column 12
-[14:47:28] [ForkJoinPool-1-worker-1/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
-- Unsupported root entry "credits" at line 12 column 12
-[14:47:28] [main/WARN]: Warnings were found!
+[20:05:03] [main/WARN]: Warnings were found!
  - Mod 'Things' (things) 0.3.3+1.20 recommends any version of patchouli, which is missing!
 	 - You should install any version of patchouli for the optimal experience.
-[14:47:28] [main/INFO]: Loading 256 mods:
+[20:05:03] [main/INFO]: Loading 261 mods:
 	- additionalstructures 4.2.1
 	- adventurez 1.4.20
 	- aquamirae 6
@@ -101,6 +99,7 @@
 	- deeperdarker 1.2.6
 	   \-- customportalapi 0.0.1-beta64-1.20
 	- dragonloot 1.1.4
+	- dummmmmmy 1.20-1.8.14
 	- dungeons_arise 2.1.57
 	- echochest 8.0.0
 	- emojiful 4.2.0
@@ -208,6 +207,7 @@
 	- mcdw 9.0.1
 	- minecraft 1.20.1
 	- modernfix 5.11.1+mc1.20.1
+	- moonlight 1.20-2.9.17
 	- mr_dungeons_andtaverns 3.0.3
 	- mr_edf_remastered 4.3
 	- mr_veinminer 1.1.0
@@ -224,6 +224,7 @@
 	- partyaddon 1.0.4
 	- player-animator 1.0.2-rc1+1.20
 	- playit_fabric 1.3.1
+	- polymorph 0.49.1+1.20.1
 	- puzzleslib 8.1.16
 	   \-- puzzlesaccessapi 8.0.7
 	- resourcefulconfig 2.1.2
@@ -238,6 +239,8 @@
 	   \-- spruceui 5.0.0+1.20
 	- soulsweapons 1.0.2-1.20-fabric
 	- starlight 1.1.2+fabric.dbc156f
+	- supplementaries 1.20-2.7.36
+	   \-- mixinsquared 0.1.1
 	- t_and_t 1.12
 	- terrablender 3.0.1.4
 	   |-- com_electronwill_night-config_core 3.6.7
@@ -307,351 +310,589 @@
 	   \-- org_javassist_javassist 3.29.2-GA
 	- yungsbridges 1.20-Fabric-4.0.3
 	- yungsextras 1.20-Fabric-4.0.3
-[14:47:28] [main/INFO]: Applying default options... (YOSBR)
-[14:47:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/minecraft-own-cloud-host-github/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[14:47:28] [main/INFO]: Compatibility level set to JAVA_17
-[14:47:29] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[14:47:29] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[14:47:29] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[14:47:29] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[14:47:29] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[14:47:29] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[14:47:29] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[14:47:29] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[14:47:29] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[14:47:29] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[14:47:29] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[14:47:29] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[14:47:29] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[14:47:29] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[14:47:29] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@9.1.13 (*) (defined in c2me)
-[14:47:29] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[14:47:29] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[14:47:29] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[14:47:29] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[14:47:29] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[14:47:29] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[14:47:29] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[14:47:29] [main/WARN]: Reference map 'cinderscapes-worldgen-refmap.json' for mixins.cinderscapes-worldgen.json could not be read. If this is a development environment you can ignore this message
-[14:47:29] [main/WARN]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
-[14:47:29] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 4 override(s) found
-[14:47:29] [main/INFO]: Loaded configuration file for ModernFix 5.11.1+mc1.20.1: 52 options available, 5 override(s) found
-[14:47:29] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
-[14:47:29] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
-[14:47:29] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
-[14:47:29] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
-[14:47:29] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
-[14:47:29] [main/INFO]: Applying Nashorn fix
-[14:47:29] [main/WARN]: Reference map 'simplyswords-fabric-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:47:29] [main/WARN]: Reference map 'terrestria-worldgen-refmap.json' for mixins.terrestria-worldgen.json could not be read. If this is a development environment you can ignore this message
-[14:47:29] [main/WARN]: Reference map 'traverse-common-refmap.json' for mixins.traverse-common.json could not be read. If this is a development environment you can ignore this message
-[14:47:29] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
-[14:47:29] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:47:29] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:47:29] [main/WARN]: Error loading class: net/minecraft/class_1007 (java.lang.ClassNotFoundException: net/minecraft/class_1007)
-[14:47:29] [main/WARN]: @Mixin target net.minecraft.class_1007 was not found mixins.artifacts.fabric.json:client.PlayerRendererMixin from mod artifacts
-[14:47:30] [main/WARN]: Error loading class: net/minecraft/class_293 (java.lang.ClassNotFoundException: net/minecraft/class_293)
-[14:47:30] [main/WARN]: @Mixin target net.minecraft.class_293 was not found creativecore.fabric.mixins.json:VertexFormatMixin from mod creativecore
-[14:47:30] [main/WARN]: Mixin malte0811.ferritecore.mixin.threaddetec.PalettedContainerMixin is disabled automatically as lithium is installed
-[14:47:30] [main/WARN]: Error loading class: net/minecraft/class_632 (java.lang.ClassNotFoundException: net/minecraft/class_632)
-[14:47:30] [main/WARN]: @Mixin target net.minecraft.class_632 was not found lavender.mixins.json:ClientAdvancementManagerAccessor from mod lavender
-[14:47:30] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[14:47:30] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[14:47:30] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me, vmp]) disables it and children
-[14:47:30] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
-[14:47:30] [main/INFO]: Loading config MixinsConfig from wilderwild
-[14:47:30] [main/INFO]: Saving config MixinsConfig from wilderwild
-[14:47:30] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[14:47:31] [main/INFO]: ThreadTweak config initialized
-[14:47:34] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[14:47:34] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[14:47:34] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[14:47:34] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[14:47:34] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[14:47:36] [main/INFO]: Loading config BlockConfig from wilderwild
-[14:47:36] [main/INFO]: Saving config BlockConfig from wilderwild
-[14:47:36] [main/INFO]: Loading config EntityConfig from wilderwild
-[14:47:36] [main/INFO]: Saving config EntityConfig from wilderwild
-[14:47:38] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[14:47:38] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[14:47:39] [main/INFO]: Vanilla bootstrap took 7208 milliseconds
-[14:47:39] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[14:47:39] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[14:47:39] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[14:47:39] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[14:47:39] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[14:47:39] [main/INFO]: Reflections took 131 ms to scan 1 urls, producing 1 keys and 2 values
-[14:47:39] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[14:47:39] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[14:47:39] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values
-[14:47:39] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
-[14:47:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[14:47:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[14:47:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[14:47:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[14:47:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[14:47:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[14:47:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[14:47:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[14:47:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[14:47:39] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[14:47:39] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[14:47:40] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[14:47:40] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[14:47:40] [main/INFO]: Biolith is initializing...
-[14:47:40] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
-[14:47:40] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[14:47:40] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[14:47:40] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[14:47:40] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[14:47:40] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[14:47:40] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[14:47:40] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[14:47:40] [main/INFO]: Hello Fabric world!
-[14:47:40] [main/INFO]: [STDOUT]: All 6 have been set properly
-[14:47:40] [main/INFO]: Enabling Cinderscapes' Biolith worldgen module.
-[14:47:40] [main/INFO]: Loading Collective version 7.30.
-[14:47:40] [main/INFO]: Loaded config for: cupboard.json
-[14:47:40] [main/INFO]: Deserializing DDConfig from './config/deeperdarker.json5'
-[14:47:40] [main/INFO]: Bypassed Mojang DFU
-[14:47:40] [main/INFO]: Instantiating Mojang DFU
-[14:47:41] [main/INFO]: Constructing common components for echochest:main
-[14:47:41] [main/INFO]: ExpandAbility here, who dis?
-[14:47:41] [main/INFO]: Registering Particles for frozenlib
-[14:47:41] [main/INFO]: Loading config FrozenLibConfig from frozenlib
-[14:47:42] [main/INFO]: Saving config FrozenLibConfig from frozenlib
-[14:47:42] [main/INFO]: Initializing hybrid-aquatic
-[14:47:42] [main/ERROR]: No data fixer registered for hybrid-aquatic:anemone
-[14:47:42] [main/ERROR]: No data fixer registered for hybrid-aquatic:giant_clam
-[14:47:42] [main/ERROR]: No data fixer registered for hybrid-aquatic:message_in_a_bottle
-[14:47:42] [main/ERROR]: No data fixer registered for hybrid-aquatic:buoy
-[14:47:42] [main/ERROR]: No data fixer registered for hybrid-aquatic:hydrothermal_vent
-[14:47:42] [main/ERROR]: No data fixer registered for hybrid-aquatic:tube_sponge
-[14:47:43] [main/ERROR]: No data fixer registered for mca:tombstone
-[14:47:43] [main/INFO]: Registering Blocks for mcda
-[14:47:43] [main/INFO]: Constructing common components for mutantmonsters:main
-[14:47:43] [main/INFO]: Loading common config for mutantmonsters
-[14:47:43] [Thread-3/INFO]: Reloading common config for mutantmonsters
-[14:47:43] [Thread-3/INFO]: Reloading common config for mutantmonsters
-[14:47:43] [main/INFO]: DerGeistdesMatze - i will take the l
-[14:47:43] [main/INFO]: Constructing common components for puzzleslib:main
-[14:47:43] [main/INFO]: [Fabric Seasons] Trying to read config file...
-[14:47:43] [main/INFO]: [Fabric Seasons] A config file was found, loading it..
-[14:47:43] [main/INFO]: [Fabric Seasons] Successfully loaded config file.
-[14:47:43] [main/INFO]: [ServerCore] Loaded V1.3.9+1.20.1!
-[14:47:44] [main/INFO]: [STDOUT]: /workspaces/minecraft-own-cloud-host-github/config
-[14:47:44] [main/INFO]: Config initialized!
-[14:47:44] [main/INFO]: Successfully initialized Geckolib!
-[14:47:44] [main/INFO]: Successfully registered SoulsWeapons content!
-[14:47:44] [main/INFO]: Successfully registered recipes!
-[14:47:44] [main/INFO]: Successfully registered built-in 2D model resourcepack!
-[14:47:44] [main/INFO]: Initializing done, time taken: 164ms
-[14:47:44] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[14:47:44] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[14:47:44] [main/INFO]: Registered region wilderwild:overworld to index 1 for type OVERWORLD
-[14:47:44] [main/INFO]: Enabling Terrestria's Biolith worldgen module.
-[14:47:44] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
-[14:47:44] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
-[14:47:44] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
-[14:47:44] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
-[14:47:44] [main/INFO]: Enabling Traverse's Biolith worldgen module.
-[14:47:45] [main/INFO]: Started measuring WilderWild
-[14:47:45] [main/INFO]: Applying DataFixes for Wilder Wild with Data Version 16
-[14:47:45] [main/INFO]: DataFixes for Wilder Wild have been applied
-[14:47:45] [main/INFO]: Loading config WorldgenConfig from wilderwild
-[14:47:45] [main/INFO]: Saving config WorldgenConfig from wilderwild
-[14:47:45] [main/INFO]: Adding Music And Ambience To Biomes for wilderwild
-[14:47:45] [main/INFO]: Overriding Water Colors for Wilder Wild wilderwild
-[14:47:45] [main/WARN]: Encountered duplicate API provider registration for block: wilderwild:stone_chest
-[14:47:45] [main/INFO]: WilderWild took 142487091 nanoseconds
-[14:47:45] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
-[14:47:45] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
-[14:47:45] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[14:47:45] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
-[14:47:45] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[14:47:45] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[14:47:45] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:47:47] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[14:47:47] [main/INFO]: registered playit command
-[14:47:47] [Worker-Main-3/ERROR]: Couldn't load tag frozenlib:dont_emit_use_game_events as it is missing following references: deeperdarker:transmitter (from fabric)
-[14:47:51] [main/INFO]: Loaded 12 recipes
-[14:47:51] [main/ERROR]: Parsing error loading custom advancement naturescompass:natures_compass: Expected items to be a JsonArray, was "min...ss"
-[14:47:51] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass: Expected items to be a JsonArray, was "min...ss"
-[14:47:51] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass_cobweb: Expected items to be a JsonArray, was "min...eb"
-[14:47:51] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass_cracked_stone_bricks: Expected items to be a JsonArray, was "min...ks"
-[14:47:51] [main/INFO]: Loaded 3843 advancements
-[14:47:51] [main/INFO]: [Fabric Seasons] Successfully loaded 15 custom crop configs.
-[14:47:51] [main/INFO]: Loaded 144 recipes
-[14:47:51] [main/INFO]: Reloading grave shape (server)
-[14:47:51] [main/INFO]: Grave model and shape reload successful (server)
-[14:47:51] [main/INFO]: Reloading YIGD graveyard data (server)
-[14:47:51] [main/INFO]: Graveyard data successfully reloaded (server)
-[14:47:51] [main/INFO]: Reloading YIGD grave area overrides (server)
-[14:47:51] [main/INFO]: Grave area overrides successfully reloaded (server)
-[14:47:52] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[14:47:52] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[14:47:52] [main/INFO]: Loading config MiscConfig from wilderwild
-[14:47:52] [main/INFO]: Saving config MiscConfig from wilderwild
-[14:47:52] [main/INFO]: Applied 4730 biome modifications to 124 of 124 new biomes in 119.6 ms
-[14:47:52] [Server thread/INFO]: Registering compost heaps in village type of plains
-[14:47:52] [Server thread/INFO]: Registering compost heaps in village type of savanna
-[14:47:52] [Server thread/INFO]: Registering compost heaps in village type of snowy
-[14:47:52] [Server thread/INFO]: Registering compost heaps in village type of taiga
-[14:47:52] [Server thread/INFO]: Registering compost heaps in village type of desert
-[14:47:52] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry is about to freeze
-[14:47:52] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry was frozen
-[14:47:53] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[14:47:53] [Server thread/INFO]: Loading properties
-[14:47:53] [Server thread/INFO]: Default game type: SURVIVAL
-[14:47:53] [Server thread/INFO]: Generating keypair
-[14:47:53] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:47:53] [Server thread/INFO]: Using epoll channel type
-[14:47:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:47:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:47:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:47:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:47:53] [Server thread/INFO]: Preparing level "world"
-[14:47:53] [Server thread/INFO]: Wilder Wild's Overworld Surface Rules have been added!
-[14:47:53] [Server thread/INFO]: Enforcing safe world random access
-[14:47:53] [Server thread/INFO]: Changing watch distance to 20
-[14:48:03] [Server thread/INFO]: Changing watch distance to 20
-[14:48:03] [Server thread/INFO]: Changing watch distance to 20
-[14:48:03] [Server thread/INFO]: Ignoring world 'deeperdarker:otherside'; unknown dimension type: deeperdarker:otherside
-[14:48:03] [Server thread/INFO]: Changing watch distance to 20
-[14:48:03] [Server thread/INFO]: Wilder Wild's Overworld Surface Rules have been added!
-[14:48:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:48:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[14:48:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[14:48:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[14:48:04] [Worker-Main-3/INFO]: Preparing spawn area: 1%
-[14:48:05] [Worker-Main-1/INFO]: Preparing spawn area: 6%
-[14:48:05] [Worker-Main-3/INFO]: Preparing spawn area: 36%
-[14:48:06] [Worker-Main-3/INFO]: Preparing spawn area: 53%
-[14:48:06] [Worker-Main-2/INFO]: Preparing spawn area: 79%
-[14:48:06] [Server thread/INFO]: Time elapsed: 3839 ms
-[14:48:06] [Server thread/INFO]: Done (13.613s)! For help, type "help"
-[14:48:06] [Server thread/WARN]: Dedicated server took 40.077 seconds to load
-[14:48:07] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 222478 bytes (in 23 string chunks with the size of 10000)
-[14:48:07] [Server thread/INFO]: [STDOUT]: PREPARING FOR RELOAD
-[14:48:09] [Thread-21/INFO]: secret key found, checking
-[14:48:09] [Thread-21/INFO]: check secret
-[14:48:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2159ms or 43 ticks behind
-[14:48:10] [Thread-21/INFO]: found minecraft java tunnel: into-bears.joinmc.link
-[14:48:10] [Thread-21/INFO]: keys and tunnel setup
-[14:48:53] [Thread-21/INFO]: got new client: NewClient{connectAddr=209.25.140.181:59270, peerAddr=196.210.63.25:53299, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -116, -75, -25, -122, -60, -46, 63, 25, -48, 51, -55, 80, 117, -50, -85, 8, 101, -48, -57, 85, 0, 0, 0, 0, 0, 6, 15, 80, 0, 0, 0, 0, 0, 46, 76, 29, -121, -50, -85, 8, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, -44, 103, 0, 1, 126, -33, -119, -43, -45, 12, -90, -13, -9, -26, 103, 95, -125, -19, -10, 31], tunnelServerId=54375, dataCenterId=3}
-[14:48:53] [Thread-21/INFO]: starting tcp tunnel for client
-[14:48:53] [Thread-21/INFO]: start connection to /209.25.143.2:43784 to claim client
-[14:48:53] [nioEventLoopGroup-2-1/INFO]: connected to tunnel server, sending claim token
-[14:48:53] [nioEventLoopGroup-2-1/INFO]: claim token sent
-[14:48:53] [nioEventLoopGroup-2-1/INFO]: connection to tunnel server has been established
-[14:48:53] [nioEventLoopGroup-2-1/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
-[14:48:53] [nioEventLoopGroup-2-1/INFO]: failed to get ServerConnection from Minecraft Server
-[14:48:53] [nioEventLoopGroup-2-1/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
-[14:48:53] [nioEventLoopGroup-2-2/INFO]: connected to local minecraft server
-[14:49:02] [Thread-21/INFO]: got new client: NewClient{connectAddr=209.25.140.181:59270, peerAddr=196.210.63.25:53302, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -116, -75, -25, -122, -60, -46, 63, 25, -48, 54, 24, -52, 67, -128, -85, 8, 101, -48, -57, 94, 0, 0, 0, 0, 0, 6, 15, 80, 0, 0, 0, 0, 0, 46, 76, 29, 56, -128, -85, 8, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, -44, 103, 0, 1, 11, -35, -39, 119, 21, 104, 82, -76, -35, -60, -101, 71, -55, -2, -39, 60], tunnelServerId=54375, dataCenterId=3}
-[14:49:02] [Thread-21/INFO]: starting tcp tunnel for client
-[14:49:02] [Thread-21/INFO]: start connection to /209.25.143.2:43784 to claim client
-[14:49:02] [nioEventLoopGroup-2-3/INFO]: connected to tunnel server, sending claim token
-[14:49:02] [nioEventLoopGroup-2-3/INFO]: claim token sent
-[14:49:02] [nioEventLoopGroup-2-3/INFO]: connection to tunnel server has been established
-[14:49:02] [nioEventLoopGroup-2-3/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
-[14:49:02] [nioEventLoopGroup-2-3/INFO]: failed to get ServerConnection from Minecraft Server
-[14:49:02] [nioEventLoopGroup-2-3/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
-[14:49:02] [nioEventLoopGroup-2-4/INFO]: connected to local minecraft server
-[14:49:04] [Thread-21/INFO]: got new client: NewClient{connectAddr=209.25.140.181:59270, peerAddr=196.210.63.25:53303, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -116, -75, -25, -122, -60, -46, 63, 25, -48, 55, 8, -16, 8, -31, -85, 8, 101, -48, -57, 96, 0, 0, 0, 0, 0, 6, 15, 80, 0, 0, 0, 0, 0, 46, 76, 29, -77, -31, -85, 8, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, -98, -12, 0, 1, 67, 114, 8, -127, -84, 63, -113, 112, 67, 81, -41, 34, 32, 92, -32, -79], tunnelServerId=40692, dataCenterId=3}
-[14:49:04] [Thread-21/INFO]: starting tcp tunnel for client
-[14:49:04] [Thread-21/INFO]: start connection to /209.25.143.2:43784 to claim client
-[14:49:04] [nioEventLoopGroup-2-5/INFO]: connected to tunnel server, sending claim token
-[14:49:04] [nioEventLoopGroup-2-5/INFO]: claim token sent
-[14:49:04] [nioEventLoopGroup-2-5/INFO]: connection to tunnel server has been established
-[14:49:04] [nioEventLoopGroup-2-5/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
-[14:49:04] [nioEventLoopGroup-2-5/INFO]: failed to get ServerConnection from Minecraft Server
-[14:49:04] [nioEventLoopGroup-2-5/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
-[14:49:04] [nioEventLoopGroup-2-6/INFO]: connected to local minecraft server
-[14:49:05] [Server thread/INFO]: [Handshake] Sending channel query
-[14:49:05] [Netty Epoll Login IO Thread #0/INFO]: [Handshake] Receiving client channels
-[14:49:05] [Netty Epoll Login IO Thread #0/INFO]: [Handshake] Handshake completed successfully
-[14:49:06] [Server thread/INFO]: __CXC___[/127.0.0.1:32776] logged in with entity id 110 at (-181.41075833015142, 87.54739551639582, -221.69999998807907)
-[14:49:07] [Server thread/INFO]: __CXC___ joined the game
-[14:49:07] [Server thread/INFO]: Async chunk loading for player __CXC___ completed
-[14:49:07] [Server thread/INFO]: [Handshake] Sending channel query
-[14:49:07] [nioEventLoopGroup-2-1/WARN]: failed to send data to tunnel
-[14:49:07] [nioEventLoopGroup-2-1/WARN]: failed to send data to tunnel
-[14:49:07] [Netty Epoll Play IO Thread #1/INFO]: Priority overwritten for player __CXC___. Claiming: GRAVE / Robbing: INVENTORY
-[14:49:07] [Server thread/INFO]: com.mojang.authlib.GameProfile@690ecaa6[id=<null>,name=__CXC___,properties={},legacy=false] (/127.0.0.1:53460) lost connection: Disconnected
-[14:49:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[14:50:55] [Server thread/INFO]: [__CXC___: The difficulty has been set to Hard]
-[14:56:11] [Server thread/INFO]: [__CXC___: Summoned new Mutant Skeleton]
-[14:56:21] [Server thread/INFO]: Loading config ItemConfig from wilderwild
-[14:56:21] [Server thread/INFO]: Saving config ItemConfig from wilderwild
-[15:03:45] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=202, y=47, z=211}
-[15:03:48] [Server thread/INFO]: __CXC___ has made the advancement [Gravedigger]
-[15:07:15] [Worker-Main-4/WARN]: Tried to access a block entity before it was created. class_2338{x=1146, y=-10, z=-763}
-[15:07:15] [Worker-Main-4/WARN]: Tried to access a block entity before it was created. class_2338{x=1146, y=-10, z=-761}
-[15:07:18] [Worker-Main-3/WARN]: Tried to access a block entity before it was created. class_2338{x=1164, y=-11, z=-755}
-[15:07:18] [Worker-Main-3/WARN]: Tried to access a block entity before it was created. class_2338{x=1165, y=-11, z=-755}
-[15:07:18] [Worker-Main-3/WARN]: Tried to access a block entity before it was created. class_2338{x=1161, y=-8, z=-755}
-[15:07:18] [Worker-Main-3/WARN]: Tried to access a block entity before it was created. class_2338{x=1162, y=-8, z=-755}
-[15:07:22] [Worker-Main-4/WARN]: Tried to access a block entity before it was created. class_2338{x=1176, y=-9, z=-753}
-[15:07:22] [Worker-Main-5/WARN]: Tried to access a block entity before it was created. class_2338{x=1181, y=-4, z=-748}
-[15:07:22] [Worker-Main-5/WARN]: Tried to access a block entity before it was created. class_2338{x=1180, y=-4, z=-749}
-[15:07:22] [Worker-Main-5/WARN]: Tried to access a block entity before it was created. class_2338{x=1179, y=-4, z=-749}
-[15:07:22] [Worker-Main-5/WARN]: Tried to access a block entity before it was created. class_2338{x=1180, y=0, z=-749}
-[15:07:22] [Worker-Main-5/WARN]: Tried to access a block entity before it was created. class_2338{x=1179, y=0, z=-749}
-[15:07:25] [Worker-Main-5/WARN]: Tried to access a block entity before it was created. class_2338{x=1190, y=-4, z=-753}
-[15:07:25] [Worker-Main-5/WARN]: Tried to access a block entity before it was created. class_2338{x=1191, y=-4, z=-753}
-[15:07:25] [Worker-Main-5/WARN]: Tried to access a block entity before it was created. class_2338{x=1190, y=-1, z=-753}
-[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-413, y=-49, z=-217}
-[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-178, y=-45, z=-85}
-[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-178, y=-41, z=-89}
-[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-172, y=-54, z=-92}
-[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-172, y=-54, z=-93}
-[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-175, y=-41, z=-90}
-[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-423, y=-50, z=-211}
-[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-420, y=-50, z=-211}
-[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-195, y=-54, z=-92}
-[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-192, y=-54, z=-88}
-[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-192, y=-50, z=-85}
-[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-183, y=-51, z=-89}
-[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-186, y=-50, z=-90}
-[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-186, y=-45, z=-87}
-[15:07:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=-189, y=-45, z=-84}
-[15:07:30] [Worker-Main-4/ERROR]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]
-[15:07:30] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-192, y=-54, z=-74}
-[15:07:30] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-192, y=-50, z=-77}
-[15:07:30] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-187, y=-50, z=-72}
-[15:07:30] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-184, y=-45, z=-75}
-[15:07:30] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-182, y=-45, z=-75}
-[15:07:30] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-418, y=-50, z=-208}
-[15:07:30] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-177, y=-55, z=-77}
-[15:07:30] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-181, y=-50, z=-73}
-[15:07:30] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=-172, y=-54, z=-70}
-[15:07:40] [Worker-Main-4/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:07:40] [Worker-Main-4/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:07:40] [Worker-Main-4/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:07:40] [Worker-Main-4/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:07:40] [Worker-Main-4/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:07:40] [Worker-Main-4/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:07:40] [Worker-Main-4/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:07:40] [Worker-Main-4/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:08:38] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=203, y=48, z=159}
-[15:08:48] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:08:48] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:08:48] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:08:48] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:08:48] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:08:48] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:08:48] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:08:48] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:08:48] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:08:48] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:18:21] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=216, y=47, z=211}
-[15:18:27] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=216, y=47, z=211}
-[15:19:51] [Worker-Main-5/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:19:51] [Worker-Main-5/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:19:51] [Worker-Main-5/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:19:51] [Worker-Main-5/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:19:51] [Worker-Main-5/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:19:51] [Worker-Main-5/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:19:51] [Worker-Main-5/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
-[15:19:51] [Worker-Main-5/WARN]: Empty or non-existent pool: minecraft:witch_hut/foundation
+[20:05:03] [main/INFO]: Applying default options... (YOSBR)
+[20:05:03] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/minecraft-own-cloud-host-github/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[20:05:04] [main/INFO]: Compatibility level set to JAVA_17
+[20:05:04] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[20:05:04] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[20:05:04] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[20:05:04] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[20:05:04] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[20:05:04] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[20:05:04] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[20:05:04] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[20:05:04] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[20:05:04] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[20:05:04] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[20:05:04] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[20:05:04] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[20:05:04] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[20:05:04] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@9.1.13 (*) (defined in c2me)
+[20:05:04] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[20:05:04] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[20:05:04] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[20:05:04] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[20:05:04] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[20:05:04] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[20:05:04] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[20:05:04] [main/WARN]: Reference map 'cinderscapes-worldgen-refmap.json' for mixins.cinderscapes-worldgen.json could not be read. If this is a development environment you can ignore this message
+[20:05:04] [main/WARN]: Reference map 'dummmmmmy-fabric-refmap.json' for dummmmmmy.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:05:04] [main/WARN]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
+[20:05:04] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 4 override(s) found
+[20:05:04] [main/INFO]: Loaded configuration file for ModernFix 5.11.1+mc1.20.1: 52 options available, 5 override(s) found
+[20:05:04] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[20:05:04] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[20:05:04] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[20:05:04] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[20:05:04] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
+[20:05:04] [main/INFO]: Applying Nashorn fix
+[20:05:04] [main/WARN]: Reference map 'simplyswords-fabric-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:05:04] [main/WARN]: Reference map 'terrestria-worldgen-refmap.json' for mixins.terrestria-worldgen.json could not be read. If this is a development environment you can ignore this message
+[20:05:04] [main/WARN]: Reference map 'traverse-common-refmap.json' for mixins.traverse-common.json could not be read. If this is a development environment you can ignore this message
+[20:05:04] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[20:05:04] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:05:04] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:05:05] [main/WARN]: Error loading class: net/minecraft/class_1007 (java.lang.ClassNotFoundException: net/minecraft/class_1007)
+[20:05:05] [main/WARN]: @Mixin target net.minecraft.class_1007 was not found mixins.artifacts.fabric.json:client.PlayerRendererMixin from mod artifacts
+[20:05:05] [main/WARN]: Error loading class: net/minecraft/class_293 (java.lang.ClassNotFoundException: net/minecraft/class_293)
+[20:05:05] [main/WARN]: @Mixin target net.minecraft.class_293 was not found creativecore.fabric.mixins.json:VertexFormatMixin from mod creativecore
+[20:05:05] [main/WARN]: Mixin malte0811.ferritecore.mixin.threaddetec.PalettedContainerMixin is disabled automatically as lithium is installed
+[20:05:05] [main/WARN]: Error loading class: net/minecraft/class_632 (java.lang.ClassNotFoundException: net/minecraft/class_632)
+[20:05:05] [main/WARN]: @Mixin target net.minecraft.class_632 was not found lavender.mixins.json:ClientAdvancementManagerAccessor from mod lavender
+[20:05:05] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[20:05:05] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[20:05:05] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me, vmp]) disables it and children
+[20:05:05] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[20:05:05] [main/INFO]: Loading config MixinsConfig from wilderwild
+[20:05:05] [main/INFO]: Saving config MixinsConfig from wilderwild
+[20:05:06] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[20:05:06] [main/INFO]: ThreadTweak config initialized
+[20:05:11] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[20:05:11] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[20:05:11] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[20:05:11] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[20:05:11] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[20:05:13] [main/INFO]: Loading config BlockConfig from wilderwild
+[20:05:13] [main/INFO]: Saving config BlockConfig from wilderwild
+[20:05:14] [main/INFO]: Loading config EntityConfig from wilderwild
+[20:05:14] [main/INFO]: Saving config EntityConfig from wilderwild
+[20:05:16] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[20:05:16] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[20:05:16] [main/INFO]: Vanilla bootstrap took 9857 milliseconds
+[20:05:17] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[20:05:17] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[20:05:17] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[20:05:17] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[20:05:17] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[20:05:17] [main/INFO]: Reflections took 46 ms to scan 1 urls, producing 1 keys and 2 values
+[20:05:17] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[20:05:17] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[20:05:17] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[20:05:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[20:05:17] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[20:05:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[20:05:17] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[20:05:17] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[20:05:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[20:05:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[20:05:17] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[20:05:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[20:05:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[20:05:17] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[20:05:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[20:05:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[20:05:17] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[20:05:17] [main/INFO]: Biolith is initializing...
+[20:05:17] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
+[20:05:17] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[20:05:17] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[20:05:17] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[20:05:17] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[20:05:17] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[20:05:17] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[20:05:17] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[20:05:18] [main/INFO]: Hello Fabric world!
+[20:05:18] [main/INFO]: [STDOUT]: All 6 have been set properly
+[20:05:18] [main/INFO]: Enabling Cinderscapes' Biolith worldgen module.
+[20:05:18] [main/INFO]: Loading Collective version 7.30.
+[20:05:18] [main/INFO]: Loaded config for: cupboard.json
+[20:05:18] [main/INFO]: Deserializing DDConfig from './config/deeperdarker.json5'
+[20:05:18] [main/INFO]: Bypassed Mojang DFU
+[20:05:18] [main/INFO]: Instantiating Mojang DFU
+[20:05:19] [main/WARN]: Lithium detected. MmmMmmMmmMmm scarecrow mode has been disabled as lithium doesnt have a way to add goals to new entities
+[20:05:19] [main/INFO]: Constructing common components for echochest:main
+[20:05:19] [main/INFO]: ExpandAbility here, who dis?
+[20:05:19] [main/INFO]: Registering Particles for frozenlib
+[20:05:19] [main/INFO]: Loading config FrozenLibConfig from frozenlib
+[20:05:19] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[20:05:19] [main/INFO]: Initializing hybrid-aquatic
+[20:05:19] [main/ERROR]: No data fixer registered for hybrid-aquatic:anemone
+[20:05:19] [main/ERROR]: No data fixer registered for hybrid-aquatic:giant_clam
+[20:05:19] [main/ERROR]: No data fixer registered for hybrid-aquatic:message_in_a_bottle
+[20:05:19] [main/ERROR]: No data fixer registered for hybrid-aquatic:buoy
+[20:05:19] [main/ERROR]: No data fixer registered for hybrid-aquatic:hydrothermal_vent
+[20:05:19] [main/ERROR]: No data fixer registered for hybrid-aquatic:tube_sponge
+[20:05:20] [main/ERROR]: No data fixer registered for mca:tombstone
+[20:05:20] [main/INFO]: Registering Blocks for mcda
+[20:05:21] [main/INFO]: Constructing common components for mutantmonsters:main
+[20:05:21] [main/INFO]: Loading common config for mutantmonsters
+[20:05:21] [Thread-3/INFO]: Reloading common config for mutantmonsters
+[20:05:21] [main/INFO]: remember to update ubuntu, before it is too late
+[20:05:21] [main/INFO]: Constructing common components for puzzleslib:main
+[20:05:21] [main/INFO]: [Fabric Seasons] Trying to read config file...
+[20:05:21] [main/INFO]: [Fabric Seasons] A config file was found, loading it..
+[20:05:21] [main/INFO]: [Fabric Seasons] Successfully loaded config file.
+[20:05:21] [main/INFO]: [ServerCore] Loaded V1.3.9+1.20.1!
+[20:05:21] [main/INFO]: [STDOUT]: /workspaces/minecraft-own-cloud-host-github/config
+[20:05:21] [main/INFO]: Config initialized!
+[20:05:21] [main/INFO]: Successfully initialized Geckolib!
+[20:05:22] [main/INFO]: Successfully registered SoulsWeapons content!
+[20:05:22] [main/INFO]: Successfully registered recipes!
+[20:05:22] [main/INFO]: Successfully registered built-in 2D model resourcepack!
+[20:05:22] [main/INFO]: Initializing done, time taken: 125ms
+[20:05:22] [main/INFO]: Loaded config supplementaries-common.json
+[20:05:22] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[20:05:22] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[20:05:22] [main/INFO]: Registered region wilderwild:overworld to index 1 for type OVERWORLD
+[20:05:22] [main/INFO]: Enabling Terrestria's Biolith worldgen module.
+[20:05:22] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[20:05:22] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[20:05:22] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[20:05:22] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[20:05:22] [main/INFO]: Enabling Traverse's Biolith worldgen module.
+[20:05:23] [main/INFO]: Started measuring WilderWild
+[20:05:23] [main/INFO]: Applying DataFixes for Wilder Wild with Data Version 16
+[20:05:23] [main/INFO]: DataFixes for Wilder Wild have been applied
+[20:05:23] [main/INFO]: Loading config WorldgenConfig from wilderwild
+[20:05:23] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[20:05:23] [main/INFO]: Adding Music And Ambience To Biomes for wilderwild
+[20:05:23] [main/INFO]: Overriding Water Colors for Wilder Wild wilderwild
+[20:05:23] [main/WARN]: Encountered duplicate API provider registration for block: wilderwild:stone_chest
+[20:05:23] [main/INFO]: WilderWild took 277675017 nanoseconds
+[20:05:23] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
+[20:05:23] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[20:05:23] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[20:05:23] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[20:05:23] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[20:05:23] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[20:05:23] [main/INFO]: Initialized block sets in 39ms
+[20:05:24] [main/INFO]: Loaded config dummmmmmy-common.json
+[20:05:24] [main/INFO]: Initialized color sets in 87ms
+[20:05:24] [main/INFO]: Finished mod setup in: [0, 1, 0, 2, 0, 0, 26, 1] ms
+[20:05:24] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:05:24] [main/INFO]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 45 ms
+[20:05:27] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[20:05:27] [main/INFO]: registered playit command
+[20:05:28] [Worker-Main-1/ERROR]: Couldn't load tag frozenlib:dont_emit_use_game_events as it is missing following references: deeperdarker:transmitter (from fabric)
+[20:05:32] [main/ERROR]: Parsing error loading recipe supplementaries:integration/lapis_bricks_fd
+com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+	at net.minecraft.class_1856.method_8107(class_1856.java:167) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:143) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_52177(class_1856.java:135) ~[server-intermediary.jar:?]
+	at com.nhoryzon.mc.farmersdelight.recipe.CuttingBoardRecipeSerializer.read(CuttingBoardRecipeSerializer.java:45) ~[farmers-delight-fabric-1.4.3.jar:?]
+	at com.nhoryzon.mc.farmersdelight.recipe.CuttingBoardRecipeSerializer.method_8121(CuttingBoardRecipeSerializer.java:15) ~[farmers-delight-fabric-1.4.3.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.6.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.6.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server.jar:1.0.0]
+[20:05:32] [main/ERROR]: Parsing error loading recipe supplementaries:integration/ash_bricks_fd
+com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+	at net.minecraft.class_1856.method_8107(class_1856.java:167) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:143) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_52177(class_1856.java:135) ~[server-intermediary.jar:?]
+	at com.nhoryzon.mc.farmersdelight.recipe.CuttingBoardRecipeSerializer.read(CuttingBoardRecipeSerializer.java:45) ~[farmers-delight-fabric-1.4.3.jar:?]
+	at com.nhoryzon.mc.farmersdelight.recipe.CuttingBoardRecipeSerializer.method_8121(CuttingBoardRecipeSerializer.java:15) ~[farmers-delight-fabric-1.4.3.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.6.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.6.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server.jar:1.0.0]
+[20:05:32] [main/INFO]: Loaded 12 recipes
+[20:05:32] [main/ERROR]: Parsing error loading custom advancement naturescompass:natures_compass: Expected items to be a JsonArray, was "min...ss"
+[20:05:32] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass: Expected items to be a JsonArray, was "min...ss"
+[20:05:32] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass_cobweb: Expected items to be a JsonArray, was "min...eb"
+[20:05:32] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass_cracked_stone_bricks: Expected items to be a JsonArray, was "min...ks"
+[20:05:32] [main/INFO]: Loaded 4052 advancements
+[20:05:32] [main/INFO]: [Fabric Seasons] Successfully loaded 15 custom crop configs.
+[20:05:32] [main/INFO]: Loaded 27 flute songs
+[20:05:32] [main/INFO]: Loaded 144 recipes
+[20:05:32] [main/INFO]: Reloading grave shape (server)
+[20:05:32] [main/INFO]: Grave model and shape reload successful (server)
+[20:05:32] [main/INFO]: Reloading YIGD graveyard data (server)
+[20:05:32] [main/INFO]: Graveyard data successfully reloaded (server)
+[20:05:32] [main/INFO]: Reloading YIGD grave area overrides (server)
+[20:05:32] [main/INFO]: Grave area overrides successfully reloaded (server)
+[20:05:33] [main/INFO]: Finished additional setup in 17 ms
+[20:05:33] [main/INFO]: Applied 7 data villager trades
+[20:05:34] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[20:05:34] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[20:05:34] [main/INFO]: Loading config MiscConfig from wilderwild
+[20:05:34] [main/INFO]: Saving config MiscConfig from wilderwild
+[20:05:34] [main/INFO]: Applied 4887 biome modifications to 124 of 124 new biomes in 118.1 ms
+[20:05:34] [Server thread/INFO]: Registering compost heaps in village type of plains
+[20:05:34] [Server thread/INFO]: Registering compost heaps in village type of savanna
+[20:05:34] [Server thread/INFO]: Registering compost heaps in village type of snowy
+[20:05:34] [Server thread/INFO]: Registering compost heaps in village type of taiga
+[20:05:34] [Server thread/INFO]: Registering compost heaps in village type of desert
+[20:05:34] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry is about to freeze
+[20:05:34] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry was frozen
+[20:05:34] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[20:05:34] [Server thread/INFO]: Loading properties
+[20:05:34] [Server thread/INFO]: Default game type: SURVIVAL
+[20:05:34] [Server thread/INFO]: Generating keypair
+[20:05:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:05:34] [Server thread/INFO]: Using epoll channel type
+[20:05:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:05:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:05:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:05:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:05:34] [Server thread/INFO]: Preparing level "world"
+[20:05:34] [Server thread/INFO]: Wilder Wild's Overworld Surface Rules have been added!
+[20:05:34] [Server thread/INFO]: Enforcing safe world random access
+[20:05:35] [Server thread/INFO]: Changing watch distance to 20
+[20:05:45] [Server thread/INFO]: Changing watch distance to 20
+[20:05:45] [Server thread/INFO]: Changing watch distance to 20
+[20:05:45] [Server thread/INFO]: Ignoring world 'deeperdarker:otherside'; unknown dimension type: deeperdarker:otherside
+[20:05:45] [Server thread/INFO]: Changing watch distance to 20
+[20:05:45] [Server thread/INFO]: Wilder Wild's Overworld Surface Rules have been added!
+[20:05:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:05:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:05:46] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:05:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:05:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:05:47] [Worker-Main-2/INFO]: Preparing spawn area: 8%
+[20:05:48] [Worker-Main-2/INFO]: Preparing spawn area: 25%
+[20:05:48] [Worker-Main-3/INFO]: Preparing spawn area: 42%
+[20:05:49] [Worker-Main-1/INFO]: Preparing spawn area: 54%
+[20:05:49] [Worker-Main-3/INFO]: Preparing spawn area: 74%
+[20:05:50] [Server thread/INFO]: Time elapsed: 4275 ms
+[20:05:50] [Server thread/INFO]: Done (15.632s)! For help, type "help"
+[20:05:50] [Server thread/WARN]: Dedicated server took 47.908 seconds to load
+[20:05:50] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 223316 bytes (in 23 string chunks with the size of 10000)
+[20:05:50] [Server thread/INFO]: [STDOUT]: PREPARING FOR RELOAD
+[20:05:51] [Thread-22/INFO]: secret key found, checking
+[20:05:51] [Thread-22/INFO]: check secret
+[20:05:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2097ms or 41 ticks behind
+[20:05:52] [Thread-22/INFO]: found minecraft java tunnel: into-bears.joinmc.link
+[20:05:52] [Thread-22/INFO]: keys and tunnel setup
+[20:06:04] [Thread-22/INFO]: got new client: NewClient{connectAddr=209.25.143.181:59270, peerAddr=2.100.64.209:57004, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -113, -75, -25, -122, 2, 100, 64, -47, -34, -84, 106, 82, 126, 80, -85, 8, 101, -46, 99, 44, 0, 0, 0, 0, 0, 6, 15, 80, 0, 0, 0, 0, 0, 46, 76, 29, -112, 80, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 70, 46, 0, 1, -119, -69, 73, 112, 39, 81, 104, -73, -39, -47, -76, -74, 98, 67, 26, 0], tunnelServerId=17966, dataCenterId=28}
+[20:06:04] [Thread-22/INFO]: starting tcp tunnel for client
+[20:06:04] [Thread-22/INFO]: start connection to /209.25.143.2:43784 to claim client
+[20:06:04] [nioEventLoopGroup-2-1/INFO]: connected to tunnel server, sending claim token
+[20:06:04] [nioEventLoopGroup-2-1/INFO]: claim token sent
+[20:06:04] [nioEventLoopGroup-2-1/INFO]: connection to tunnel server has been established
+[20:06:04] [nioEventLoopGroup-2-1/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[20:06:04] [nioEventLoopGroup-2-1/INFO]: failed to get ServerConnection from Minecraft Server
+[20:06:04] [nioEventLoopGroup-2-1/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[20:06:04] [nioEventLoopGroup-2-2/INFO]: connected to local minecraft server
+[20:06:13] [Thread-22/INFO]: got new client: NewClient{connectAddr=209.25.143.181:59270, peerAddr=2.100.64.209:57028, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -113, -75, -25, -122, 2, 100, 64, -47, -34, -60, 110, -54, -17, 20, -85, 8, 101, -46, 99, 53, 0, 0, 0, 0, 0, 6, 15, 80, 0, 0, 0, 0, 0, 46, 76, 29, -117, 20, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 70, 46, 0, 1, 11, 122, -23, -117, -4, -29, 91, -123, 78, -113, 123, 69, -36, -102, 71, -50], tunnelServerId=17966, dataCenterId=28}
+[20:06:13] [Thread-22/INFO]: starting tcp tunnel for client
+[20:06:13] [Thread-22/INFO]: start connection to /209.25.143.2:43784 to claim client
+[20:06:13] [nioEventLoopGroup-2-3/INFO]: connected to tunnel server, sending claim token
+[20:06:13] [nioEventLoopGroup-2-3/INFO]: claim token sent
+[20:06:13] [nioEventLoopGroup-2-3/INFO]: connection to tunnel server has been established
+[20:06:13] [nioEventLoopGroup-2-3/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[20:06:13] [nioEventLoopGroup-2-3/INFO]: failed to get ServerConnection from Minecraft Server
+[20:06:13] [nioEventLoopGroup-2-3/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[20:06:13] [nioEventLoopGroup-2-4/INFO]: connected to local minecraft server
+[20:06:43] [Thread-22/INFO]: got new client: NewClient{connectAddr=209.25.143.181:59270, peerAddr=2.100.64.209:57037, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -113, -75, -25, -122, 2, 100, 64, -47, -34, -51, 63, -80, -38, 18, -85, 8, 101, -46, 99, 83, 0, 0, 0, 0, 0, 6, 15, 80, 0, 0, 0, 0, 0, 46, 76, 29, 35, 18, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 70, 46, 0, 1, -118, -70, -36, 43, -8, 96, 87, -71, -96, 42, -18, 42, -26, 42, -32, -7], tunnelServerId=17966, dataCenterId=28}
+[20:06:43] [Thread-22/INFO]: starting tcp tunnel for client
+[20:06:43] [Thread-22/INFO]: start connection to /209.25.143.2:43784 to claim client
+[20:06:43] [nioEventLoopGroup-2-5/INFO]: connected to tunnel server, sending claim token
+[20:06:43] [nioEventLoopGroup-2-5/INFO]: claim token sent
+[20:06:43] [nioEventLoopGroup-2-5/INFO]: connection to tunnel server has been established
+[20:06:43] [nioEventLoopGroup-2-5/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[20:06:43] [nioEventLoopGroup-2-5/INFO]: failed to get ServerConnection from Minecraft Server
+[20:06:43] [nioEventLoopGroup-2-5/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[20:06:43] [nioEventLoopGroup-2-6/INFO]: connected to local minecraft server
+[20:09:21] [Thread-22/INFO]: got new client: NewClient{connectAddr=209.25.143.181:59270, peerAddr=2.100.64.209:57124, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -113, -75, -25, -122, 2, 100, 64, -47, -33, 36, -85, 102, 116, -114, -85, 8, 101, -46, 99, -15, 0, 0, 0, 0, 0, 6, 15, 80, 0, 0, 0, 0, 0, 46, 76, 29, -69, -114, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 70, 46, 0, 1, 80, 79, -88, -110, -21, -17, -79, 57, 3, -5, -76, 14, -10, -45, 26, 8], tunnelServerId=17966, dataCenterId=28}
+[20:09:21] [Thread-22/INFO]: starting tcp tunnel for client
+[20:09:21] [Thread-22/INFO]: start connection to /209.25.143.2:43784 to claim client
+[20:09:21] [nioEventLoopGroup-2-7/INFO]: connected to tunnel server, sending claim token
+[20:09:21] [nioEventLoopGroup-2-7/INFO]: claim token sent
+[20:09:21] [nioEventLoopGroup-2-7/INFO]: connection to tunnel server has been established
+[20:09:21] [nioEventLoopGroup-2-7/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[20:09:21] [nioEventLoopGroup-2-7/INFO]: failed to get ServerConnection from Minecraft Server
+[20:09:21] [nioEventLoopGroup-2-7/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[20:09:21] [nioEventLoopGroup-2-8/INFO]: connected to local minecraft server
+[20:09:21] [Server thread/INFO]: [Handshake] Sending channel query
+[20:09:22] [Netty Epoll Login IO Thread #0/INFO]: [Handshake] Receiving client channels
+[20:09:22] [Netty Epoll Login IO Thread #0/INFO]: [Handshake] Handshake completed successfully
+[20:09:22] [Server thread/INFO]: shadoowmasterYT[/127.0.0.1:55270] logged in with entity id 110 at (1845.23409217186, 119.0, -8908.489737823205)
+[20:09:23] [Server thread/INFO]: shadoowmasterYT joined the game
+[20:09:23] [Netty Epoll Play IO Thread #1/INFO]: Priority overwritten for player shadoowmasterYT. Claiming: GRAVE / Robbing: INVENTORY
+[20:09:24] [Server thread/INFO]: Async chunk loading for player shadoowmasterYT completed
+[20:09:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2039ms or 40 ticks behind
+[20:10:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[20:11:16] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=311, y=48, z=214}
+[20:11:16] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=310, y=48, z=214}
+[20:11:16] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=309, y=49, z=214}
+[20:11:16] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=309, y=48, z=214}
+[20:11:16] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=310, y=49, z=214}
+[20:11:16] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=311, y=49, z=214}
+[20:11:16] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=311, y=50, z=214}
+[20:11:16] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=310, y=50, z=214}
+[20:11:16] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=309, y=50, z=214}
+[20:11:17] [Server thread/INFO]: Loading config ItemConfig from wilderwild
+[20:11:17] [Server thread/INFO]: Saving config ItemConfig from wilderwild
+[20:12:46] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=311, y=48, z=214}
+[20:12:46] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=310, y=48, z=214}
+[20:12:46] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=309, y=49, z=214}
+[20:12:46] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=309, y=48, z=214}
+[20:12:46] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=310, y=49, z=214}
+[20:12:46] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=311, y=49, z=214}
+[20:12:46] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=311, y=50, z=214}
+[20:12:46] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=310, y=50, z=214}
+[20:12:46] [Worker-Main-4/ERROR]: Hanging entity at invalid position: class_2338{x=309, y=50, z=214}
+[20:13:37] [Server thread/INFO]: shadoowmasterYT was slain by Vindicator
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 1 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 3 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 4 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 1 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 1 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 1 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 19 but got 18
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 3 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 1 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 1 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 1 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 1 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 2 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 12 but got 11
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 2 but got 1
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 2 but got 0
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1514, y=2, z=-9254} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 27 but got 26
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 4 but got 3
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 22 but got 20
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 3 but got 1
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 1 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 7 but got 0
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1607, y=-18, z=-9289} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1604, y=-18, z=-9289} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1605, y=-19, z=-9291} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 1 but got 0
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1576, y=-26, z=-9257} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1572, y=-27, z=-9253} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1574, y=-26, z=-9253} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1572, y=-26, z=-9258} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 5 but got 2
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 2 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 1 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 2 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 1 but got 0
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1575, y=-28, z=-9273} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 1 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 1 but got 0
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1641, y=6, z=-9291} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 1 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 3 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 2 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 3 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 2 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 6 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 7 but got 6
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 5 but got 4
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 2 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 2 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 2 but got 0
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1637, y=-33, z=-9311} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 11 but got 10
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 2 but got 0
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1658, y=22, z=-9273} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1643, y=-27, z=-9257} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1641, y=-27, z=-9255} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1638, y=-27, z=-9259} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1590, y=-34, z=-9311} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1630, y=-17, z=-9265} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1606, y=-37, z=-9273} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1736, y=0, z=-9285} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1759, y=-26, z=-9305} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1746, y=-26, z=-9310} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1708, y=-12, z=-9250} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1724, y=29, z=-9266} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 4 but got 3
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 3 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 16 but got 15
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 1 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 2 but got 0
+[20:13:38] [Server thread/WARN]: Block entities size mismatch! expected 2 but got 1
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1700, y=-33, z=-9275} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1698, y=-35, z=-9273} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1674, y=-14, z=-9256} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1682, y=-37, z=-9266} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1677, y=-32, z=-9280} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1676, y=-33, z=-9280} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1677, y=-32, z=-9281} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1677, y=-33, z=-9282} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1714, y=-39, z=-9312} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1754, y=25, z=-9255} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1756, y=25, z=-9254} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1757, y=25, z=-9252} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1749, y=-38, z=-9258} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1758, y=25, z=-9251} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1748, y=-39, z=-9256} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1748, y=-39, z=-9255} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1877, y=-34, z=-9302} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1887, y=-5, z=-9293} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1883, y=17, z=-9291} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1881, y=18, z=-9292} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1862, y=-22, z=-9305} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1857, y=26, z=-9306} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1889, y=-19, z=-9294} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1917, y=5, z=-9295} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1918, y=5, z=-9296} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1895, y=12, z=-9303} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1823, y=-45, z=-9302} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1894, y=-31, z=-9263} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1842, y=-38, z=-9312} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1840, y=16, z=-9289} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1844, y=16, z=-9288} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1842, y=17, z=-9286} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1824, y=-45, z=-9302} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1836, y=-5, z=-9300} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1956, y=-21, z=-9260} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1953, y=-21, z=-9264} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1952, y=-21, z=-9262} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1992, y=-13, z=-9308} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1995, y=-10, z=-9309} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1976, y=32, z=-9260} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1977, y=32, z=-9260} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1978, y=32, z=-9261} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1975, y=32, z=-9257} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1976, y=32, z=-9257} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1978, y=31, z=-9255} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1937, y=-15, z=-9266} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=2030, y=-31, z=-9283} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1920, y=-15, z=-9268} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1922, y=-14, z=-9269} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1932, y=-49, z=-9293} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1921, y=13, z=-9287} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1932, y=-2, z=-9305} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=1920, y=5, z=-9299} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1936, y=-9, z=-9281} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1981, y=-24, z=-9292} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=1978, y=-24, z=-9290} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=2090, y=4, z=-9262} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=2138, y=16, z=-9300} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=2138, y=17, z=-9302} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=2138, y=17, z=-9303} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=2067, y=14, z=-9277} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #2/WARN]: Block Entity at class_2338{x=2152, y=23, z=-9302} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=2075, y=-24, z=-9309} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=2078, y=-25, z=-9308} for block Block{supplementaries:urn} doesn't exist
+[20:13:38] [C2ME worker #1/WARN]: Block Entity at class_2338{x=2096, y=-44, z=-9301} for block Block{supplementaries:urn} doesn't exist
+[20:14:48] [Server thread/INFO]: There are 1 of a max of 20 players online: shadoowmasterYT
+[20:18:21] [Server thread/INFO]: [Not Secure] <shadoowmasterYT> yo
+[20:25:36] [Server thread/WARN]: shadoowmasterYT moved wrongly!
+[20:25:46] [Server thread/WARN]: shadoowmasterYT moved wrongly!
+[20:25:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2996ms or 59 ticks behind
+[20:26:10] [Server thread/INFO]: shadoowmasterYT claimed a grave belonging to shadoowmasterYT at 1845, 112, -8976, minecraft:overworld
+[20:29:39] [Server thread/WARN]: shadoowmasterYT moved wrongly!
+[20:29:46] [Server thread/WARN]: shadoowmasterYT moved wrongly!
+[20:31:42] [Server thread/INFO]: [Not Secure] [Server] wsg
+[20:31:44] [Server thread/INFO]: [Not Secure] <shadoowmasterYT> dw
+[20:31:46] [Server thread/INFO]: [Not Secure] [Server] what happen
+[20:31:48] [Server thread/INFO]: [Not Secure] <shadoowmasterYT> i was almost cooked
+[20:31:53] [Server thread/INFO]: [Not Secure] <shadoowmasterYT> but i saved myself
+[20:32:02] [Server thread/INFO]: [Not Secure] [Server] so shoudl i still tp u
+[20:32:04] [Server thread/INFO]: [Not Secure] [Server] or nah
+[20:32:11] [Server thread/INFO]: [Not Secure] <shadoowmasterYT> nah
+[20:32:16] [Server thread/INFO]: [Not Secure] [Server] ight
+[20:33:15] [Server thread/INFO]: [Not Secure] [Server] cya gonna go watch new solo leveling ep
+[20:33:19] [Server thread/INFO]: [Not Secure] <shadoowmasterYT> ight
+[20:36:48] [nioEventLoopGroup-2-7/WARN]: failed to send data to tunnel
+[20:36:48] [Server thread/INFO]: shadoowmasterYT lost connection: Disconnected
+[20:36:48] [Server thread/INFO]: shadoowmasterYT left the game
+[20:36:54] [Thread-22/INFO]: got new client: NewClient{connectAddr=209.25.143.181:59270, peerAddr=2.100.64.209:57240, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -113, -75, -25, -122, 2, 100, 64, -47, -33, -104, -117, -43, -86, -57, -85, 8, 101, -46, 106, 102, 0, 0, 0, 0, 0, 6, 15, 80, 0, 0, 0, 0, 0, 46, 76, 29, 90, -57, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 70, 46, 0, 1, 97, 114, 126, -49, -37, 95, 88, -48, 32, 90, 85, 67, 23, -26, 1, -115], tunnelServerId=17966, dataCenterId=28}
+[20:36:54] [Thread-22/INFO]: starting tcp tunnel for client
+[20:36:54] [Thread-22/INFO]: start connection to /209.25.143.2:43784 to claim client
+[20:36:54] [nioEventLoopGroup-2-1/INFO]: connected to tunnel server, sending claim token
+[20:36:54] [nioEventLoopGroup-2-1/INFO]: claim token sent
+[20:36:54] [nioEventLoopGroup-2-1/INFO]: connection to tunnel server has been established
+[20:36:54] [nioEventLoopGroup-2-1/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[20:36:54] [nioEventLoopGroup-2-1/INFO]: failed to get ServerConnection from Minecraft Server
+[20:36:54] [nioEventLoopGroup-2-1/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[20:36:54] [nioEventLoopGroup-2-2/INFO]: connected to local minecraft server
+[20:36:54] [Thread-22/INFO]: got new client: NewClient{connectAddr=209.25.143.181:59270, peerAddr=2.100.64.209:57241, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -113, -75, -25, -122, 2, 100, 64, -47, -33, -103, -91, -65, -122, -49, -85, 8, 101, -46, 106, 102, 0, 0, 0, 0, 0, 6, 15, 80, 0, 0, 0, 0, 0, 46, 76, 29, -18, -49, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 70, 46, 0, 1, 35, 99, 4, -92, -42, 20, 101, 37, -86, -1, -106, 104, 44, 110, -23, 36], tunnelServerId=17966, dataCenterId=28}
+[20:36:54] [Thread-22/INFO]: starting tcp tunnel for client
+[20:36:54] [Thread-22/INFO]: start connection to /209.25.143.2:43784 to claim client
+[20:36:54] [nioEventLoopGroup-2-3/INFO]: connected to tunnel server, sending claim token
+[20:36:54] [nioEventLoopGroup-2-3/INFO]: claim token sent
+[20:36:54] [nioEventLoopGroup-2-3/INFO]: connection to tunnel server has been established
+[20:36:54] [nioEventLoopGroup-2-3/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[20:36:54] [nioEventLoopGroup-2-3/INFO]: failed to get ServerConnection from Minecraft Server
+[20:36:54] [nioEventLoopGroup-2-3/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[20:36:54] [nioEventLoopGroup-2-4/INFO]: connected to local minecraft server
+[20:36:55] [Server thread/INFO]: [Handshake] Sending channel query
+[20:36:55] [Netty Epoll Login IO Thread #1/INFO]: [Handshake] Receiving client channels
+[20:36:55] [Netty Epoll Login IO Thread #1/INFO]: [Handshake] Handshake completed successfully
+[20:36:56] [Server thread/INFO]: shadoowmasterYT[/127.0.0.1:53654] logged in with entity id 16555 at (-189.74133511270003, 88.0, -215.11578404797365)
+[20:36:56] [Server thread/INFO]: shadoowmasterYT joined the game
+[20:36:56] [Server thread/INFO]: Async chunk loading for player shadoowmasterYT completed
+[20:36:56] [Netty Epoll Play IO Thread #2/INFO]: Priority overwritten for player shadoowmasterYT. Claiming: GRAVE / Robbing: INVENTORY
+[20:40:51] [Server thread/INFO]: [Not Secure] <shadoowmasterYT> w server
+[20:41:27] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at net.minecraft.class_3176$1.run(class_3176.java:89) ~[server-intermediary.jar:?]
+[20:41:27] [Server thread/INFO]: Stopping server
+[20:41:27] [Server thread/INFO]: Saving players
+[20:41:27] [Server thread/INFO]: Saving worlds
+[20:41:27] [nioEventLoopGroup-2-4/WARN]: failed to send data to minecraft server
+[20:41:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:41:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:41:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[20:41:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:41:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:41:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:41:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[20:41:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:41:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:41:28] [C2ME Storage #3/INFO]: Storage thread Thread[#64,C2ME Storage #3,8,main] stopped
+[20:41:29] [C2ME Storage #2/INFO]: Storage thread Thread[#63,C2ME Storage #2,8,main] stopped
+[20:41:29] [C2ME Storage #1/INFO]: Storage thread Thread[#62,C2ME Storage #1,8,main] stopped
+[20:41:29] [C2ME Storage #6/INFO]: Storage thread Thread[#67,C2ME Storage #6,8,main] stopped
+[20:41:29] [C2ME Storage #5/INFO]: Storage thread Thread[#66,C2ME Storage #5,8,main] stopped
+[20:41:29] [C2ME Storage #4/INFO]: Storage thread Thread[#65,C2ME Storage #4,8,main] stopped
+[20:41:29] [C2ME Storage #9/INFO]: Storage thread Thread[#70,C2ME Storage #9,8,main] stopped
+[20:41:29] [C2ME Storage #8/INFO]: Storage thread Thread[#69,C2ME Storage #8,8,main] stopped
+[20:41:29] [C2ME Storage #7/INFO]: Storage thread Thread[#68,C2ME Storage #7,8,main] stopped
+[20:41:29] [C2ME Storage #12/INFO]: Storage thread Thread[#73,C2ME Storage #12,8,main] stopped
+[20:41:29] [C2ME Storage #11/INFO]: Storage thread Thread[#72,C2ME Storage #11,8,main] stopped
+[20:41:29] [C2ME Storage #10/INFO]: Storage thread Thread[#71,C2ME Storage #10,8,main] stopped
+[20:41:29] [Server thread/INFO]: stopping playit
